@@ -1,0 +1,74 @@
+<!-- maps/skymap.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+  <title>Radio and Telescope Map</title>
+  <script type="module" src="./radiotelescope.js"></script>
+  <style>
+   html, body, #map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* General popup layout */
+  .popup-wrapper {
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .popup-wrapper h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #2c3e50;
+    line-height: 1.2;
+  }
+
+  /* Content area styling */
+  .desc-content {
+    color: #555;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+
+  /* Make images and tables responsive */
+  .leaflet-popup-content img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 5px auto;
+  }
+
+  .leaflet-popup-content table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  .leaflet-popup-content a {
+    word-break: break-word;
+    color: #0077cc;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    .leaflet-popup-content-wrapper {
+      max-width: 85vw;
+    }
+  }
+
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script type="module" src="./radiotelescope.js"></script>
+</body>
+</html>

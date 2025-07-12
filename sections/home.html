@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome to Ace</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background-color: #010922;
+      font-family: 'Orbitron', sans-serif;
+      cursor: default;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .centered-content {
+      text-align: center;
+      z-index: 2;
+      color: #f1f1f1;
+      animation: fadeInUp 1s ease-out;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 3.5vw;
+      margin-bottom: 0.5rem;
+      color: #00c3ff;
+      text-shadow: 0 0 25px rgba(0, 195, 255, 0.9);
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    p {
+      font-size: 1.3vw;
+      color: #f0f0f0;
+      line-height: 1.5;
+      margin: 0.5rem 0;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+      opacity: 0;
+      animation: fadeInText 1s forwards;
+    }
+
+    p:nth-of-type(1) { animation-delay: 0.6s; }
+    p:nth-of-type(2) { animation-delay: 1.0s; }
+    p:nth-of-type(3) { animation-delay: 1.4s; }
+    p:nth-of-type(4) { animation-delay: 1.8s; }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+
+    .flashlight {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      background: radial-gradient(circle at var(--x) var(--y), rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.95) 300px);
+      z-index: 3;
+      mix-blend-mode: screen;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInText {
+      to { opacity: 1; }
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px rgba(0, 195, 255, 0.6), 0 0 20px rgba(0, 195, 255, 0.4); }
+      to { text-shadow: 0 0 20px rgba(0, 195, 255, 1), 0 0 30px rgba(0, 195, 255, 0.6); }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="background"></canvas>
+  <div class="centered-content">
+    <h1>Welcome to Ace</h1>
+    <p>A Simple Astronomy App for All Curious Minds</p>
+    <p>Use it for quick calculations and beautiful space visualizations.</p>
+  </div>
+  <div class="flashlight" id="flashlight"></div>
+
+  <script>
+    const canvas = document.getElementById('background');
+    const ctx = canvas.getContext('2d');
+    const flashlight = document.getElementById('flashlight');
+
+    let width, height;
+    function resizeCanvas() {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    let cursor = { x: width / 2, y: height / 2 };
+    let dragging = false;
+    let draggedPlanet = null;
+
+    const comets = Array.from({ length: 100 }, () => {
+      return {
+        x: Math.random() * width,
+        y: Math.random() * height,
+        r: Math.random() * 1.5 + 0.5,
+        dx: -0.2 - Math.random() * 0.5,
+        dy: 0.4 + Math.random() * 0.8,
+        opacity: Math.random()
+      };
+    });
+
+    const planets = Array.from({ length: 5 }, () => ({
+      x: Math.random() * width,
+      y: Math.random() * height,
+      r: 15 + Math.random() * 20,
+      dx: (Math.random() - 0.5) * 4,
+      dy: (Math.random() - 0.5) * 4,
+      color: `hsl(${Math.random() * 360}, 80%, 60%)`
+    }));
+
+    function draw() {
+      ctx.clearRect(0, 0, width, height);
+
+      for (let comet of comets) {
+        let dist = Math.hypot(cursor.x - comet.x, cursor.y - comet.y);
+        if (dist < 200) {
+          comet.x += (cursor.x - comet.x) * 0.01;
+          comet.y += (cursor.y - comet.y) * 0.01;
+        } else {
+          comet.x += comet.dx;
+          comet.y += comet.dy;
+        }
+
+        ctx.beginPath();
+        ctx.arc(comet.x, comet.y, comet.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(255, 255, 255, ${comet.opacity})`;
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(comet.x, comet.y);
+        ctx.lineTo(comet.x - comet.dx * 10, comet.y - comet.dy * 10);
+        ctx.strokeStyle = `rgba(255,255,255,${comet.opacity * 0.3})`;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+
+        comet.opacity = Math.max(0.2, Math.min(1, comet.opacity + (Math.random() - 0.5) * 0.05));
+        if (comet.x < 0 || comet.y > height) {
+          comet.x = Math.random() * width;
+          comet.y = -10;
+        }
+      }
+
+      for (let p of planets) {
+        if (draggedPlanet === p && dragging) {
+          p.x = cursor.x;
+          p.y = cursor.y;
+        } else {
+          p.x += p.dx;
+          p.y += p.dy;
+
+          if (p.x < p.r || p.x > width - p.r) p.dx *= -1;
+          if (p.y < p.r || p.y > height - p.r) p.dy *= -1;
+        }
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI);
+        ctx.fillStyle = p.color;
+        ctx.fill();
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    draw();
+
+    canvas.addEventListener('mousedown', e => {
+      cursor.x = e.clientX;
+      cursor.y = e.clientY;
+      for (let p of planets) {
+        if (Math.hypot(p.x - cursor.x, p.y - cursor.y) <= p.r) {
+          dragging = true;
+          draggedPlanet = p;
+          break;
+        }
+      }
+    });
+
+    canvas.addEventListener('mouseup', () => {
+      dragging = false;
+      draggedPlanet = null;
+    });
+
+    canvas.addEventListener('mousemove', e => {
+      cursor.x = e.clientX;
+      cursor.y = e.clientY;
+      flashlight.style.setProperty('--x', e.clientX + 'px');
+      flashlight.style.setProperty('--y', e.clientY + 'px');
+    });
+  </script>
+</body>
+</html>

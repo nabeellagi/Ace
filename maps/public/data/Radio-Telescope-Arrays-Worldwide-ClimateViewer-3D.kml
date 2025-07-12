@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Radio-Telescope-Arrays-Worldwide-ClimateViewer-3D.kmz</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>-97.95209377525453</longitude>
+		<latitude>40.43902122049033</latitude>
+		<altitude>0</altitude>
+		<heading>-0.1688974130057649</heading>
+		<tilt>0</tilt>
+		<range>9755580.105830982</range>
+		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+	</LookAt>
+	<Style id="sn_satellite_dish">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>400000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>400000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.77273</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>400000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_satellite_dish">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_satellite_dish0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_satellite_dish0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_radz">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>400000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>400000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_radz">
+		<IconStyle>
+			<scale>2.33334</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.5</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>400000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>400000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_satellite_dish">
+		<IconStyle>
+			<scale>1.75</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>400000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>400000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_climateviewer">
+		<IconStyle>
+			<scale>2.36363</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/climateviewer.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_climateviewer">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_climateviewer</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_climateviewer</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_satellite_dish0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_satellite_dish0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_climateviewer">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/climateviewer.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_satellite_dish0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_satellite_dish</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_satellite_dish</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>http://climateviewer.org/img/icons/satellite_dish.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LineStyle>
+			<color>400000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_radz">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_radz</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_radz</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>ClimateViewer License</name>
+		<open>1</open>
+		<description><![CDATA[<div style="text-align:center"><a href="http://climateviewer.org/"><img alt="CV3D" title="Visit the ClimateViewer Maps website!" src="http://climateviewer.org/img/menu/climateviewer-3d-logo.svg" style="width:250px;display:block;clear:both;margin-left:auto;margin-right:auto" /></a>
+<p>Created: July 23, 2013<br>
+Last Updated: July 21, 2019</p>
+<h3><a href="http://climateviewer.org/3d/">ClimateViewer 3D</a></h3>
+<p>This map by <a xmlns:cc="http://creativecommons.org/ns#" href="https://climateviewer.com/about/" property="cc:attributionName" rel="cc:attributionURL">Jim Lee</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://climateviewer.org/" rel="dct:source">climateviewer.org</a>. Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://climateviewer.com/terms/" rel="cc:morePermissions">climateviewer.com/terms</a>.</p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://climateviewer.org/img/2018/cc-by-nc-sa-4.png" /></a></div>]]></description>
+		<LookAt>
+			<longitude>-43.49157387286157</longitude>
+			<latitude>27.37481297709737</latitude>
+			<altitude>0</altitude>
+			<heading>6.500814681869711</heading>
+			<tilt>0</tilt>
+			<range>5360270.440987032</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_climateviewer</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-43.49157387286157,27.37481297709737,0</coordinates>
+		</Point>
+	</Placemark>
+	<Folder>
+		<name>Space Communications</name>
+		<Placemark>
+			<name>Yevpatoria RT-70 radio telescope</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Yevpatoria_RT-70_radio_telescope'>The Yevpatoria RT-70 radio telescope</a> is an RT-70 radio telescope and planetary radar at the Center for Deep Space Communications, Yevpatoria, Crimea, Ukraine. In the scientific literature is often called Evpatoria planetary radar (an acronym EPR).<br>With its 70m antenna diameter, it is among the largest single dish radio telescopes in the world. It has an advantage in comparison with other large radio telescopes in the fact that the complex includes powerful transmitters that allow active space experiments. Powerful electromagnetic beams can be accurately targeted and analysis conducted on the received signals. For this reason, the Yevpatoria RT-70 radio telescope is one of the only two in the world that are able to transmit messages to extraterrestrial civilizations. Radio telescope are highly sensitive detectors of signals from outer space.</p>]]></description>
+			<LookAt>
+				<longitude>33.18768889638001</longitude>
+				<latitude>45.18860059587932</latitude>
+				<altitude>0</altitude>
+				<heading>-0.05145536782595932</heading>
+				<tilt>15.04485552274667</tilt>
+				<range>643.1516328338608</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>33.18768889638001,45.18860059587933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Galenki RT-70 radio telescope</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Galenki_RT-70_radio_telescope'>The Galenki RT-70 radio telescope</a> is an RT-70 telescope at the East Center for Deep Space Communications, Galenki (Ussuriysk), Russia.<br><br>With its 70m antenna diameter, it is among the largest single dish radio telescopes in the world.</p>]]></description>
+			<LookAt>
+				<longitude>131.7574339452175</longitude>
+				<latitude>44.01591170653229</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01084865278442216</heading>
+				<tilt>0</tilt>
+				<range>395.9272800992833</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>131.7570692597351,44.01568013634867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Suffa RT-70 radio telescope</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Suffa_RT-70_radio_telescope'>The Suffa RT-70 radio telescope</a> is an RT-70 radio telescope at the Suffa Radio Observatory on the Suffa plateau, Uzbekistan.<br><br>With its 70m antenna diameter, it is among the largest single dish radio telescopes in the world.</p>]]></description>
+			<LookAt>
+				<longitude>68.44848216018595</longitude>
+				<latitude>39.62470865388771</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003644448972153764</heading>
+				<tilt>0</tilt>
+				<range>2090.913998959204</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>68.44848216018595,39.6247086538877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>USCG Communications Area Master Station Atlantic (CAMSLANT)</name>
+			<open>1</open>
+			<description><![CDATA[<p>Chesapeake, VA<br>4720 Douglas A. Munro Rd.<br>Chesapeake, VA 23322<br><br>Today, CAMSLANT is staffed and operated by over 100 telecommunications professionals and support personnel and offers a full spectrum of telecommunications services to support the fleet, shore commanders, and other government agencies and organizations throughout the world. CAMSLANT also maintains and deploys contingency communications to provide command and control support for natural disaster recovery, special operations, and other emergencies. CAMSLANT is also responsible for the Atlantic Area Cutter Fleet Communications Assist Team (CAT) and has assumed a formal role in training the fleet's communicators. The newest addition to CAMSLANT is the Local Control Center (LCC). The LCC is a landline-based subunit, which was brought online on August 1999. The LCC will eventually take control of all CG east coast-based communications centers and will use the Defense Messaging System (DMS) for record message traffic as AUTODIN is phased out.<br><br>CAMSLANT directs and oversees day to day operations and maintains operational control of all Communication Stations in the Coast Guard's Atlantic Area. These include COMMSTA Miami/NMA (1993*), COMMSTA Boston/NMF (1996*), and COMMSTA New Orleans/NMG (1998*) which are all controlled remotely by CAMSLANT.<br><br><a href="http://www.uscg.mil/lantarea/camslant/" target="_blank">uscg.mil</a></p>]]></description>
+			<LookAt>
+				<longitude>-76.25665874550192</longitude>
+				<latitude>36.56580933988656</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005011882362541231</heading>
+				<tilt>0</tilt>
+				<range>428.4178422295415</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<coordinates>-76.25665874550192,36.56580933988656,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder>
+			<name>AN/FSC-79</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://www.fas.org/spp/military/program/com/an-fsc-79.htm'>The AN/FSC-79 Fleet Broadcast Terminal</a> is a fixed SHF SATCOM terminal capable of one transmit channel and one receive beacon channel, designed specifically to support the Navy Fleet Satellite Broadcast. It is housed in a permanent facility and uses a 60-foot diameter, high-efficiency parabolic reflector antenna mounted on an elevation over azimuth configured pedestal. The terminal operates on a single channel, tunable in 1-kHz increments over a transmitting frequency range of 7.9 to 8.4 GHz, at a maximum output of 10,000 watts.<br><br>The OM-51A/ FR Modem is an integral part of the Fleet Broadcast subsystem. This spread spectrum modem, when used in combination with the AN/ FSC-79 SATCOM terminal, provides an RF transmission capability in a high-level jamming environment. The basic function of this modem is to provide RF analog and digital conditioning on circuits and frequency synthesizing for dual redundant transmission and reception. The unit interfaces with the AN/ FSC-79 terminal and the amplifier-converter of the AN/ SSR-1A receiver system. When uplinking the broadcast to Fleet Satellite channel 1, only one modem is used. The OM-51A/ FR installation consists of a standard cabinet containing seven slide-mounted drawer assemblies. These assemblies include a summary control panel, frequency synthesizer, receiver-synchronizer, coder-modulator, demodulator, and two power supplies.<br><br>The ON-163A/ FR Interconnecting Indicator Group is a companion installation to the OM-51A/ FR modem. The interconnecting indicator group provides a secondary modulation mode to the Fleet Satellite Broadcast shore terminal. The equipment contains an OM-43A/ USC modem, a power supply, a UHF and IF patch panel, a data patch panel, and three units of test equipment. The IF section of the patch panel provides the capability for patching the output of either the OM-51A/ FR or the OM-43A/ USC as the uplink signal to the AN/ FSC-79 transmitter. The UHF section has the capability to patch a UHF test signal to an online AM-6534/ SSR-1 down-converter. The data patch panel enables patching the 1.2 kbps data stream to the input of the OM-51A/ FR or the OM-43A/ USC. The three units of test equipment are a frequency counter, a spectrum analyzer, and a UHF signal generator. <br><br></p>]]></description>
+		</Folder>
+		<Folder>
+			<name>AN/FSC-78</name>
+			<description><![CDATA[<p><a href='http://web.archive.org/web/20160614124534/http://www.fas.org:80/spp/military/program/com/an-fsc-78.htm'>The AN/FSC-78(V)</a> is a fixed SHF SATCOM heavy SGT operating in the X-band frequency range. The AN/GSC-39 differs from the AN/FSC-78 18.29 m (60 ft) dish only in using an 11.6 m (38 ft) diameter, DE-222/G, parabolic dish. The terminal is composed of six subsystems, including antenna tracking, transmitter, receiver, frequency reference, control, and monitoring. The antenna is a 60- foot diameter, high-efficiency, parabolic reflector providing an antenna gain-to-noise temperature ratio (G/ T) of 39 dB/ K. The reflector is mounted on an elevation-over-azimuth-configured pedestal. Cryogenically cooled, parametric amplifiers provide 30 dB of gain and an antenna G/ T ratio of 39 dB/ K. The antenna terminal equipment has a tracking converter, 15 down-converters, and 9 up-converters. Only 10 of the down-converters are normally active at one time; the remaining 5 are in hot standby. The output signals from the up-converters are fed to a 5-kW TWTA, providing a radiated antenna signal of 500-MHz bandwidth at an EIRP of 124 dB referenced to one watt (dBW). A redundant 5 kW power amplifier can be operated in parallel with the primary power amplifier to provide an output equivalent to 10 kW at an EIRP of 127 dBW. The down-converters translate the receive signal of 7.25 to 7.75 GHz to 70-MHz IF (40-MHz bandwidth) or a 700-MHz IF (125-MHz bandwidth). The up-converters translate the 70 or 700-MHz IF input signal, with bandwidths of 40 or 125 MHz, to the transmit frequency of 7.9 to 8.4 GHz. The Army Heavy Terminal/ Medium Terminal (HT/ MT) modernization of the AN/ FSC-78/ 79 and AN/ GSC-39 Earth terminal will increase the total number of the uplink and downlink converters. <br><br><img src="http://climateviewer.org/img/gallery/2-13.gif" /><br></p>]]></description>
+			<Placemark>
+				<name>SATCOM Facility, Northwest (Chesapeake, VA)</name>
+				<open>1</open>
+				<description><![CDATA[<p>NAVSATCOMMFAC NW uses two DISA heavy fixed satellite earth terminals (AN/FSC-78C) and a DISA medium satellite earth terminal (AN/GSC-52A) to provide satellite paths for the DII global long haul communications and Standardized Tactical Entry Point (STEP) communication trunks and services.<br><br><a href="http://web.archive.org/web/20071009162148/http://www.nctamslant.navy.mil:80/index.php?id=401&secid=14" target="_blank">www.nctamslant.navy.mil</a></p>]]></description>
+				<LookAt>
+					<longitude>-76.26772494385676</longitude>
+					<latitude>36.55951212859958</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01502881226166025</heading>
+					<tilt>0.9001757390773046</tilt>
+					<range>407.0752506411884</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<coordinates>-76.26772494385676,36.55951212859958,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AN/FSC-78 Camp Roberts SATCOM</name>
+				<description><![CDATA[<p>DSCS (Defense Satellite Communication System) and WGS (Wideband Global SATCOM) facilities. Home of The ROC (Roberts Operation Center, C CO 1st SATCON) and C CO 302nd SIG BN.<br><br>The Camp Roberts SATCOM facility is the main US Army comunications facility on the west coast and provides worldwide comunications between the US National Command Authority and deployed military units.<br><br>http://www.casfcc.org/stationary_FC_Map/locations/OrgDetail.aspx?ID=31<br>http://www.spacewar.com/reports/Boeing_Completes_Critical_Wideband_Global_SATCOM_Satellite_Tests_999.html<br>http://www.bfec.us/campbob.htm<br>http://www.globalsecurity.org/space/agency/1sat.htm<br>http://wikimapia.org/5885080/Camp-Roberts-SATCOM</p>]]></description>
+				<LookAt>
+					<longitude>-120.7553737952642</longitude>
+					<latitude>35.73489470563747</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0002183090211794776</heading>
+					<tilt>0</tilt>
+					<range>291.336004614988</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-120.7557086107354,35.73504303039186,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AN/FSC-78 Wahiawa SATCOM</name>
+				<description><![CDATA[<p>The <a href='http://wikimapia.org/5894597/Dual-AN-FSC-78'>AN/FSC-78</a> is a SHF communications terminal used to transmit and receive Frequency Division Multiple Access (FDMA) and Spread Spectrum Multiple Access (SSMA) Defense Communications System (DCS) carriers, SCTIS, and Navy C4I SHF circuits. The terminal configuration at Wahiawa SATCOM consist of two 60-foot parabolic “dish” antennas, which utilize the DSCS III satellites located in the Western and Eastern Pacific theaters.<br><img src='http://climateviewer.org/img/gallery/99_960.jpg'></p>]]></description>
+				<LookAt>
+					<longitude>-157.9944648917752</longitude>
+					<latitude>21.51986834420564</latitude>
+					<altitude>0</altitude>
+					<heading>-7.493596795435641e-006</heading>
+					<tilt>0</tilt>
+					<range>215.2702684201316</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-157.9944886790713,21.51977915721175,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AN/FSC-78 Onizuka Air Force Station</name>
+				<description><![CDATA[<p><a href='http://wikimapia.org/5024619/Dual-AN-FSC-78-Heavy-Earth-Terminals'>Dual AN/FSC-78 Heavy Earth Terminals</a><br><br>Dubbed Sun East (SVE) and Sun West (SVW), the heavy terminals have 60-foot parabolic dishes<br><img src='http://climateviewer.org/img/gallery/01_big.jpg'></p>]]></description>
+				<LookAt>
+					<longitude>-122.0288877813788</longitude>
+					<latitude>37.40361024414486</latitude>
+					<altitude>0</altitude>
+					<heading>-3.461079604368599e-011</heading>
+					<tilt>0</tilt>
+					<range>139.1192305439628</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-122.0288877813788,37.40361024414486,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AN/FSC-78 Fort Meade, MA</name>
+				<description><![CDATA[<p>The <a href='http://wikimapia.org/3738919/Dual-AN-FSC-78-antennas'>AN/FSC-78(V)</a> is a fixed SHF SATCOM heavy SGT operating in the X-band frequency range. The AN/GSC-39 differs from the AN/FSC-78 18.29 m (60 ft) dish only in using an 11.6 m (38 ft) diameter, DE-222/G, parabolic dish. The terminal is composed of six subsystems, including antenna tracking, transmitter, receiver, frequency reference, control, and monitoring. The antenna is a 60-foot diameter, high-efficiency, parabolic reflector providing an antenna gain-to-noise temperature ratio (G/ T) of 39 dB/K. The reflector is mounted on an elevation-over-azimuth-configured pedestal. <br><img src='http://climateviewer.org/img/gallery/07_big.jpg'></p>]]></description>
+				<LookAt>
+					<longitude>-76.75726883520021</longitude>
+					<latitude>39.1047795169786</latitude>
+					<altitude>0</altitude>
+					<heading>-2.940049741919148e-005</heading>
+					<tilt>0</tilt>
+					<range>213.2920417194135</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-76.7571483511786,39.10486240237846,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>AN/GSC-39</name>
+			<description><![CDATA[<p>The <a href='http://web.archive.org/web/20061217223951/http://www.fas.org:80/spp/military/program/com/an-gsc-39.htm'>AN/GSC-39(V)</a> 1 is the standard DSCS medium terminal (MT) for fixed sites. The AN/GSC-39 differs from the AN/FSC-78 18.29 m (60 ft) dish only in using an 11.6 m (38 ft) diameter, DE-222/G, parabolic dish. The AN/ GSC-39( V) 2 is designed for transportable requirements. With the exception of the interface hardware, all major components are fully interchangeable between the (V) 1 and (V) 2 versions. Designed to operate within the SHF X-band spectrum, the AN/ GSC-39( V) is a multiple carrier, 500-MHz instantaneous bandwidth terminal. The heart of the communications equipment features wideband access at 70 and 700 MHz IF to accommodate both analog and digital interfaces. The antenna subsystem consists of a 38-foot, high-efficiency reflector and a pedestal housing the drive mechanisms. It is a Cassegrain feed system with a five horn pseudomonopulse antenna that can be dismantled and stored in reusable containers for rapid deployment. Receive LNAs installed in a redundant configuration are physically mounted at the base of the feed horn on the rear of the antenna and have a maximum noise temperature of 30 degrees Kelvin (K). The LNA provides a signal gain of 53 dBm and has 15 down-converters. The transmit side has nine up-converters and two TWTAs with an output of five kilowatts (kW) each. A switch combining network permits the power amplifiers to operate in a redundant or parallel configuration. The parallel configuration combines the power output of the transmitters at 10 kW.</p>]]></description>
+			<Placemark>
+				<name>AN/GSC-39 Fort Meade, MA</name>
+				<description><![CDATA[<p>The AN/ GSC-39( V) 1 is the standard DSCS medium terminal (MT) for fixed sites. The AN/GSC-39 differs from the AN/FSC-78 18.29 m (60 ft) dish only in using an 11.6 m (38 ft) diameter, DE-222/G, parabolic dish.<br>http://wikimapia.org/3738932/AN-GSC-39-antenna</p>]]></description>
+				<LookAt>
+					<longitude>-76.75858491553532</longitude>
+					<latitude>39.10454783196848</latitude>
+					<altitude>0</altitude>
+					<heading>-6.238658007690687e-012</heading>
+					<tilt>0</tilt>
+					<range>90.26008127331481</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-76.75870929645716,39.1046224020543,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>AN/GSC-52</name>
+			<description><![CDATA[<p>The AN/ GSC-52( V) is a fixed or mobile, medium-size SHF SGT designed for use with the DSCS space segment. It is a high-capacity, high-altitude electromagnetic pulse (HEMP) protected terminal that uses pseudo-monopulse scanning for operator-selectable manual tracking, memory tracking, or acquisition/ auto tracking of the satellite. The terminal consists of an antenna subsystem, a receive subsystem, a transmitter subsystem, and tracking/ servo subsystem. The antenna subsystem has a Cassegrain feed, 38-foot parabolic-reflector antenna, an elevation over azimuth pedestal, and a servodrive mechanism. Modems provide a 70 or 700-MHz IF to the up-converters whose RF outputs are combined into a single RF signal in the 7.9 to 8.4 GHz range with a bandwidth as wide as 500 MHz. The composite signal is amplified by the TWTA and fed, via waveguides, to the antenna subsystem. On the receive side, the antenna receives an RF signal at 7.25 to 7.75 GHz, amplifies the signal using LNAs and the interfacility amplifiers, and passes the signal to down-converters which provide a 70 or 700-MHz IF output to the modem. The AN/ GSC-52( V) uses 12 up-and down-converters. The AN/ GSC-52( V) ground terminal is capable of manned or unmanned operations through a centralized control, monitor, and alarm subsystem that provides computer-aided configuration for control, status and performance monitoring, equipment calibration, fault isolation, and automatic switching of redundant equipment to replace a faulty unit. The AN/ GC-52 modernization program will also increase the total number of uplink and downlink converters.<br><br>The main purpose of the AN/FSC-52 Modernization is to maintain the warfighter's ability to communicate back to the sustaining base during war or contingency operations via Department of Defense or commercial super high frequency satellites. The modernization will extend the life of the AN/GSC-52 terminal by 15-20 years. Other major program objectives include improved performance, enhance control and monitoring, reduction of life cycle costs, increased availability and increased commonality with the other Defense Satellite Communications Systems (DSCS) strategic terminals. The modernization of thirty-nine (39) AN/GSC-52 terminals will be accomplished by system upgrade. The contractor will install MWO kits for the first 3 terminals and the Army will install the remaining thirty-six (36) MWO.<br><br> http://www.fas.org/spp/military/program/com/an-gsc-52.htm<br><br><img src="http://www.fas.org/spp/military/docops/navy/ntp2/2-12.gif" /></p>]]></description>
+			<Placemark>
+				<name>AN/GSC-52 Camp Roberts SATCOM</name>
+				<description><![CDATA[<p>DSCS (Defense Satellite Communication System) and WGS (Wideband Global SATCOM) facilities. Home of The ROC (Roberts Operation Center, C CO 1st SATCON) and C CO 302nd SIG BN.<br><br>The Camp Roberts SATCOM facility is the main US Army comunications facility on the west coast and provides worldwide comunications between the US National Command Authority and deployed military units.<br><br>http://www.casfcc.org/stationary_FC_Map/locations/OrgDetail.aspx?ID=31<br>http://www.spacewar.com/reports/Boeing_Completes_Critical_Wideband_Global_SATCOM_Satellite_Tests_999.html<br>http://www.bfec.us/campbob.htm<br>http://www.globalsecurity.org/space/agency/1sat.htm<br>http://wikimapia.org/5885080/Camp-Roberts-SATCOM</p>]]></description>
+				<LookAt>
+					<longitude>-120.754960023014</longitude>
+					<latitude>35.73476288611875</latitude>
+					<altitude>0</altitude>
+					<heading>2.334850203898555e-005</heading>
+					<tilt>0</tilt>
+					<range>284.8939978125629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-120.7549546674321,35.73450290559184,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AN/GSC-52 Fort Belvoir Earth Terminal Complex</name>
+				<description>US Army SATCOM earth terminal complex consisting of three AN/GSC-52 SAMT terminals with 38-foot diameter dishes. Provides primary and backup communications for the joint services and many DoD agencies. Wikipedia article: http://en.wikipedia.org/wiki/DSCS_III</description>
+				<LookAt>
+					<longitude>-77.144547458727</longitude>
+					<latitude>38.72574688766465</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002831125779344739</heading>
+					<tilt>0</tilt>
+					<range>427.9984306995827</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-77.14503578994184,38.72534452915917,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AN/GSC-52 Fort Meade MA</name>
+				<description><![CDATA[The AN/ GSC-52( V) is a fixed or mobile, medium-size SHF SGT designed for use with the DSCS space segment. It is a high-capacity, high-altitude electromagnetic pulse (HEMP) protected terminal that uses pseudo-monopulse scanning for operator-selectable manual tracking, memory tracking, or acquisition/auto tracking of the satellite. The terminal consists of an antenna subsystem, a receive subsystem, a transmitter subsystem, and tracking/ servo subsystem.<br><br>The antenna subsystem has a Cassegrain feed, 38-foot parabolic-reflector antenna, an elevation over azimuth pedestal, and a servodrive mechanism. Modems provide a 70 or 700-MHz IF to the up-converters whose RF outputs are combined into a single RF signal in the 7.9 to 8.4 GHz range with a bandwidth as wide as 500 MHz. The composite signal is amplified by the TWTA and fed, via waveguides, to the antenna subsystem. On the receive side, the antenna receives an RF signal at 7.25 to 7.75 GHz, amplifies the signal using LNAs and the interfacility amplifiers, and passes the signal to down-converters which provide a 70 or 700-MHz IF output to the modem.]]></description>
+				<LookAt>
+					<longitude>-76.75744358119573</longitude>
+					<latitude>39.10375566778294</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0001396166811657939</heading>
+					<tilt>0</tilt>
+					<range>236.6075452789689</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-76.7574,39.10385277777778,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AN/GSC-52 Eareckson AS SATCOM</name>
+				<description><![CDATA[<p>Call sign: SHE. The dual AN/GSC-52 terminals were installed in 2004.<br>http://www.eis.army.mil/dcats/n-04-05-03.html<br>http://wikimapia.org/4767661/Eareckson-AS-SATCOM<br></p>]]></description>
+				<LookAt>
+					<longitude>174.1028543119212</longitude>
+					<latitude>52.72249779281297</latitude>
+					<altitude>0</altitude>
+					<heading>6.089908630619617e-005</heading>
+					<tilt>0</tilt>
+					<range>332.0015816098953</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>174.1029071703869,52.72248436673194,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>Satellite Tracking</name>
+		<Placemark>
+			<name>CNES Earth Station, Kerguelen</name>
+			<open>1</open>
+			<description><![CDATA[<p>ES of the Centre National d'Etudes Spatiales.<br>Launch and Early Orbit Phase Telemetry station.<br>The station is mainly used for the SPOT system.<br>(SPOT system comprises several satellites together with efficient ground equipment and computer systems) </p><p><a href="http://www.panoramio.com/photo/21456816?source=wapi&referrer=kh.google.com" target="_blank"><img src="http://climateviewer.org/img/gallery/CNES-Kerguelen.jpg"/></a></p><a href="http://wikimapia.org/4468082/CNES-Earth-Station-Kerguelen" target="_blank">Wikimapia</a>]]></description>
+			<LookAt>
+				<longitude>70.25687323899379</longitude>
+				<latitude>-49.35180382880913</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002415400461873241</heading>
+				<tilt>0</tilt>
+				<range>211.7479901424852</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<coordinates>70.25687323899379,-49.35180382880913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Carnarvon Tracking Station</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Carnarvon_Tracking_Station'>The Carnarvon Tracking Station</a> in Western Australia was a tracking station built in 1963 for use by NASA for the Gemini program, the second step for NASA&acute;s plan to put a human on the Moon. It replaced the Muchea Tracking Station and used some of the equipment from Project Mercury.<br><br>The Station also included an FPQ-6 precision tracking radar, a STADAN scientific satellite tracking facility, a planet Jupiter monitoring system, and a Solar Particle Alert Network (SPAN) facility. Together these facilities formed the largest station in the NASA network outside mainland USA.<br><br>After the conclusion of the Gemini program, Carnarvon Tracking Station provided extensive support for the Project Apollo missions to the Moon. By reason of Carnarvon's unique geographical position it was used to uplink the Trans Lunar Injection (TLI) command to the Apollo spacecraft and was prime for the last hours of re-entry to Earth.<br><br>To enhance critical communications between the station and the Houston Control Centre, NASA funded the near-by OTC Satellite Earth Station Carnarvon in 1966.<br><br>After Project Apollo finished, the Carnarvon Tracking Station continued with the Skylab project. When Skylab finished the station ceased routine operations immediately after an AE-C pass on Friday, 4 October 1974 but retained sufficient capability for one final mission - the trans-solar insertion of Helios-A on 10 December 1974. The final closure of the gates and exodus of the last five staff members took place on 18 April 1975.<br><br>The main building was then used by Radio Australia who were looking for a home after Cyclone Tracy put their Darwin installation out of commission. They closed this facility in June 1996. All Tracking Station equipment was removed and/or buried and all buildings, with the exception of one small one now used by Telstra, were razed. Only the foundations of what is an historical site remain.<br><br>Solar scientific research, originally carried out at the Carnarvon Tracking Station, is now carried out on the adjacent OTC Satellite Earth Station Carnarvon site, which hosts a node of the Birmingham Solar Oscillations Network.</p>]]></description>
+			<LookAt>
+				<longitude>113.7206455147971</longitude>
+				<latitude>-24.90422739482611</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000577443521487929</heading>
+				<tilt>0</tilt>
+				<range>797.1841351273432</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>113.7208780436894,-24.90381301328522,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Canberra Deep Space Communication Complex</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Canberra_Deep_Space_Communication_Complex'>The Canberra Deep Space Communication Complex (CDSCC)</a> is a ground station that is located in Australia at Tidbinbilla in the Paddys River (a tributory of the Cotter River) valley, about half an hour's drive out of Canberra in the Australian Capital Territory. The complex is part of the Deep Space Network run by NASA's Jet Propulsion Laboratory (JPL). It is commonly referred to as the Tidbinbilla Deep Space Tracking Station and was officially opened on 19 March 1965 by the then Prime Minister of Australia Sir Robert Menzies.</p>]]></description>
+			<LookAt>
+				<longitude>148.9823214278095</longitude>
+				<latitude>-35.40243643432238</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001019827875409585</heading>
+				<tilt>0</tilt>
+				<range>995.4769631320066</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>148.9823214278095,-35.40243643432238,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DSS-63 - Madrid Deep Space Communication Complex</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='https://www.mdscc.nasa.gov'>The Madrid Deep Space Communication Complex</a> DSS-63 is a 400kW transmission S, X-Band<br><br>It is part of NASA's Deep Space Network run by the Jet Propulsion Laboratory. [1] The facility contributes to the Deep Space Network's ability to provide the vital two-way communications link that guides and controls remote control drones and receives the images and new scientific information they collect. This complex is one of three NASA Deep Space Network complexes in the world; the others are the Goldstone Deep Space Communications Complex located in California, near the city of Barstow, and the Canberra Deep Space Communication Complex in Australia which is close to the city of Canberra. The complex has five antennas, called DSS-54, DSS-55, DSS-63, DSS-65 and DSS-66.<br><br>DSS-63 was built in 1974 as a 64-meter antenna, and upgraded to 70 metres in the late 1980s. It can transmit in S and X-band with a power up to 400 kilowatts and receive in L, S, and X bands. DSS-63 weighs a total of 8000 tons, whereby the dish has a weight of 3500 tons. Its reflecting surface is 4,180 square metres (45,000 sq ft).<br><br><img src="http://climateviewer.org/img/gallery/antena_70_metros_DSS63.jpg" /></p>]]></description>
+			<LookAt>
+				<longitude>-4.247915932853108</longitude>
+				<latitude>40.43121004537345</latitude>
+				<altitude>0</altitude>
+				<heading>0.001846435681159859</heading>
+				<tilt>0</tilt>
+				<range>334.328181804414</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-4.247876341712372,40.43112690283108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DSS 16-Apollo Complex</name>
+			<open>1</open>
+			<description><![CDATA[<p>DSS 16&acute;s operation schedule often includes receiving telemetry from as many as 15 different Satellites per day in both high and low Earth orbits. On occasion the station is assigned to support the launch phase of some satellites. A 9-meter (30-foot) antenna at the Apollo site is available for backup support.</p>]]></description>
+			<LookAt>
+				<longitude>-116.8736504222982</longitude>
+				<latitude>35.33851276390431</latitude>
+				<altitude>0</altitude>
+				<heading>-2.287202149303786e-005</heading>
+				<tilt>0</tilt>
+				<range>1593.207986307273</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-116.8736504222982,35.33851276390431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AN/FPS-16 Vandenberg AFB</name>
+			<open>1</open>
+			<description><![CDATA[<p>The <a href='http://en.wikipedia.org/wiki/AN/FPS-16'>FPS-16 radar</a> sits atop Tranquillon Peak overlooking all of Vandenberg Air Force Base in California, including Space Launch Complex-6, and the shoreline. Tranquillon Peak&acute;s elevation of 2,126 feet (648 m) is the highest point on Vandenberg AFB. The radar provides data and range safety for missile launches. This radar, along with its data system, is used for tracking the Minuteman III ICBM.<br><img src="http://climateviewer.org/img/gallery/800px-AN-FPS-16.jpg" /></p>]]></description>
+			<LookAt>
+				<longitude>-120.5608888934967</longitude>
+				<latitude>34.58323222765293</latitude>
+				<altitude>0</altitude>
+				<heading>-11.29528347785844</heading>
+				<tilt>6.303178575738721</tilt>
+				<range>252.5561796292531</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-120.5613834532093,34.58336275959503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vandenberg Tracking Station</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://web.archive.org/web/20110722184239/http://www.losangeles.af.mil/news/story.asp?id=123101518'>The Vandenberg AFB Tracking Station</a> (call sign: COOK) is a dual station which can communicate simultaneously with two satellites. It supports ballistic missile test and space launches from the Western Test Range at Vandenberg Air Force Base.<br><br><a href='http://www.losangeles.af.mil/News/Photos/igphoto/2000611237/'><img src="http://climateviewer.org/img/gallery/060804-F-9999J-007.JPG" /></a></p>]]></description>
+			<LookAt>
+				<longitude>-120.502585562632</longitude>
+				<latitude>34.82412116980054</latitude>
+				<altitude>0</altitude>
+				<heading>-11.26314259886476</heading>
+				<tilt>0</tilt>
+				<range>746.8860197732602</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-120.5027096276838,34.82350043167016,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NASA Challenger Outward Bound Centre</name>
+			<open>1</open>
+			<description><![CDATA[<p>Deep Space Station, <a href='http://scouts.org.ac/oldsite/nasa1.htm'>Ascension Island DSS 72</a><br><br>The facilities were formerly occupied by Deep Space Station, Ascension Island. It was left to the 1st Ascension Island Scout Group when NASA abandoned the station in 1990.<br><br>The site was constructed from 1965 to 1966. The original purpose of constructing this station was to support the early Surveyor missions, whose Atlas-Centaur launch vehicles would produce a direct-ascent trajectory to the Moon, rather than insertion from a parking orbit. Translunar injection would therefore occur before the spacecraft was visible to either the Johannesburg station or the stations in Spain. Consequently, a station nearer to the launch site than these facilities was needed to obtain during this phase positional data vital to trajectory determination and midcourse corrections.<br><br>Deep space and Apollo missions were separately monitored by two 9-meter, az-el-mounted antennas with high angular-tracking rates. The deep-space antenna (on the right in the photo) had a nominal communications range of 60,300 kilometers (37,500 miles). This station was funded by the U.S. State Department.<br><br><a href='http://www.honeysucklecreek.net/other_stations/ascension/index.html'><img src="http://climateviewer.org/img/gallery/Ascension_Island_sm.jpg" /></a></p>]]></description>
+			<LookAt>
+				<longitude>-14.32773640616784</longitude>
+				<latitude>-7.955500083170469</latitude>
+				<altitude>0</altitude>
+				<heading>14.24499640330018</heading>
+				<tilt>0</tilt>
+				<range>1851.9690117722</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-14.32699882304288,-7.953912038264697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>USN - Sugar Grove NAVRADSTA (R)</name>
+			<open>1</open>
+			<description><![CDATA[<p>Navy Satellite Communication Station <a href='http://www.navy-radio.com/commsta/sugargrove.htm'>Sugar Grove</a><br><a href='http://cryptome.org/eyeball/sugar/sugar-eyeball.htm'>Cryptome Eyeball on Sugar Grove</a></p>]]></description>
+			<LookAt>
+				<longitude>-79.27865996311975</longitude>
+				<latitude>38.51463952661276</latitude>
+				<altitude>0</altitude>
+				<heading>0.02632683624905571</heading>
+				<tilt>0</tilt>
+				<range>1274.392609659359</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-79.27746354175076,38.51538686403204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NOAA/NESDIS Fairbanks CDA Satellite Communication Station</name>
+			<open>1</open>
+			<description><![CDATA[<p>The University of Alaska Fairbanks and the NOAA National Environmental Satellite, Data, and Information Service (NESDIS) Fairbanks Command and Data Acquisition Station (FCDAS) work on joint projects under a memorandum of agreement to receive, process, and distribute satellite data in service to Alaska and the surrounding Arctic region. FCDAS has an extremely robust satellite data reception configuration that is an excellent complement to GINA’s user application focus and distribution capabilities.<br><br>Noteworthy successes include:<br><br>Reception of Landsat 5 for Alaska<br>FCDASs provision of backup reception services to GINA during L-band reception outages<br>Provision of satellite data captured by the FCDAS-operated Barrow ground station to Alaskan operational users<br>Capture of DMSP satellite data for distribution by GINA.<br><br>The Landsat 5 reception partnership among NOAA/NESDIS-FCDAS, UAF-GINA, and USGS-EROS has provided both short term-value and will be a major long-term contributor to land remote sensing for Alaska.<br><a href='http://web.archive.org/web/20090622194629/http://www.gina.alaska.edu/ground-station/noaanesdis-station/'>www.gina.alaska.edu/ground-station/noaanesdis-station/</a></p>]]></description>
+			<LookAt>
+				<longitude>-147.5136824672366</longitude>
+				<latitude>64.97403987753675</latitude>
+				<altitude>0</altitude>
+				<heading>-0.08350879054849303</heading>
+				<tilt>0</tilt>
+				<range>1595.508778521064</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<coordinates>-147.5170145090219,64.97512034533666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ESA-DeepSpaceNetwork</name>
+			<open>1</open>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<coordinates>-3.951048772997169,40.4429264843974,1195.436780940718</coordinates>
+			</Point>
+			<View>
+					<longitude>-3.951048628151042</longitude>
+					<latitude>40.44292411818388</latitude>
+					<range>1416.379895089798</range>
+					<tilt>-2.215706016024031e-011</tilt>
+					<heading>9.346991702055746</heading>
+				</View>
+		</Placemark>
+		<Placemark>
+			<name>Bukit Timah Satellite Earth Station</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Bukit_Timah_Satellite_Earth_Station'>The Bukit Timah Satellite Earth Station</a> (Chinese: 武吉知马卫星地面站; Malay: Stesen Satelit Bumi Bukit Timah) is the second satellite earth station in Singapore after Sentosa Satellite Earth Station in Sentosa Island. The station is located in Bukit Timah near Chantek flyover between Bukit Timah Expressway (BKE) and Pan Island Expressway (PIE). This station is managed and owned by SingTel with the building starting construction in 1983 and started operations in 1986. As it is located next to the BKE, motorists coming into Singapore via the causeway see this as their first landmark other than Woodlands.</p>]]></description>
+			<LookAt>
+				<longitude>103.7911767528283</longitude>
+				<latitude>1.351516457129337</latitude>
+				<altitude>0</altitude>
+				<heading>8.103510134554808e-006</heading>
+				<tilt>0</tilt>
+				<range>331.1349406140818</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>103.7914287262526,1.351411412378831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sentosa Satellite Earth Station</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Sentosa_Satellite_Earth_Station'>The Sentosa Satellite Earth Station</a> (Chinese: --; Malay: Stesen Satelit Bumi Sentosa) is Singapore&acute;s first satellite earth station. The station is located at Sentosa Island. It was established in 1970. The second antenna was built two years later in 1972 as more traffic grows. This station is managed and owned by SingTel.</p>]]></description>
+			<LookAt>
+				<longitude>103.8367277045979</longitude>
+				<latitude>1.247805375707136</latitude>
+				<altitude>0</altitude>
+				<heading>0.0009284082775388959</heading>
+				<tilt>0</tilt>
+				<range>785.7505950130782</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>103.8361995111532,1.248425936483941,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISTRAC 32m - Indian Deep Space Network</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Indian_Deep_Space_Network'>The Indian Deep Space Network</a> S-Band - 20/2 kW, X-Band 2.5 kW Tx<br>The first one is a 32-meter Deep Space Antenna. The wheel and track 32-m antenna is a state-of-the-art system that will support the Chandrayaan-1 mission operations and beyond. This is co-located with 18-m antenna in the IDSN site at Byalalu. A fibre optics / satellite link will provide the necessary connectivity between the IDSN site and Spacecraft Control Centre / Network Control Centre. This antenna is designed to provide uplink in both S-Band (20/2 kW) and X-Band (2.5 kW), either through RCP or LCP. The reception capability will be in both S-Band and X-Band (simultaneous RCP & LCP). It can receive two carriers in S-Band and one carrier in X-Band, simultaneously. The system will have a G/T of 37.5/51 dB/K (45° elevation, clear sky) for S/X-Band. The base-band will adhere to CCSDS Standards facilitating cross-support among the space agencies. The station is also equipped for remote control from the ISTRAC Network Control Centre (NCC).<br><br>http://www.isro.org/GroundFacilities/trackingfacility.aspx</p>]]></description>
+			<LookAt>
+				<longitude>77.3691515034559</longitude>
+				<latitude>12.90310216139997</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000416811430142363</heading>
+				<tilt>0</tilt>
+				<range>237.2431184635819</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>77.36905670843349,12.9034528390959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SkyPort NOC and Teleport</name>
+			<description><![CDATA[<a href='http://wikimapia.org/4412486/SkyPort-NOC-and-Teleport'>The NOC and Teleport</a> reside at Ellington JRB (former U.S. Air Force Base). The base has been designed as a joint task force facility, and will be home to all area National Guard units. The Base is also the site of various NASA operations, and is adjacent to NASA's Johnson Space Center. The site is entirely fenced with multiple protection devices, and is patrolled 24/7 by military police. The proximity of these military and aerospace operations furnishes SkyPort’s Teleport and global NOC with a level of security unmatched in the industry.]]></description>
+			<LookAt>
+				<longitude>-95.17499802782901</longitude>
+				<latitude>29.61002930924972</latitude>
+				<altitude>0</altitude>
+				<heading>-2.193979576857065e-005</heading>
+				<tilt>0</tilt>
+				<range>97.8638555139726</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<coordinates>-95.17503821458719,29.61011297802768,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Radio Telescope</name>
+		<Folder>
+			<name>IRA Ukraine URAN VLBI</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<p><a href="http://astronomy.pl.ua/poltava/uran2.htm" target="_blank"><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/IRAN_URAN_VLBI_locations.png"/></a><br><br>Radio telescope UTR-2 (Ukrainian T-shaped radio telescope, the second modifikatsiya) that belongs Radioastronomic Institute of NAS of Ukraine, Kharkov, built about 40 years ago on the initiative of the outstanding Ukrainian scientist Academician SJ Braude (1911-2003). This unique tool works in the decameter range of radio waves (frequency from 10 to 30 MHz) has been popular and effective area - about 150,000 square meters, which makes it a record sensitivity. There are currently it is the world's largest and most effective tool to study cosmic radio emission in most long-wave region elektromahnytnoho spectrum that is available for observations of Earth's surface. Based on the radio telescope UTR-2 created a system of interferometers URAN (Ukrainian Academy of Sciences radiointerferometr). What, besides high sensitivity, also provides a record resolution - up to 1 arcseconds. The system consists of radio telescopes UTR-2, URAN-1 and URAN-4 (RI NANU) URAN-2 (Poltava Gravimetric Observatory of Institute of Geophysics NASU), uranium-3 (physic mehanychnyy Institute of NASU, Lviv). Using radio telescopes UTR-2 and URAN received a huge number of priority scientific results, which are well known throughout the world. These works were awarded two USSR State Prize (1977, 1988 pp), the State Prize of Ukraine (1997), Prizes of NAS of Ukraine named after outstanding scientists of Ukraine (1990, 2005, 2008 pp), other awards and honors. Tools are widely used in many vitchiznyanyh and international research projects and research. Create, funktsiyunuvannya and use Ukrainian radio telescopes laid the foundations for future development of low-frequency radio astronomy in Ukraine and in the world, including the establishment of Foreign and domestic Radioastronomy systems of new generation. Source: <a href="http://astronomy.pl.ua/poltava/uran2.htm" target="_blank">astronomy.pl.ua</a><br><br>Radio telescope UTR-2 with the system of interferometers URAN<br>Radio telescope UTR-2 (s.Hrakove, Kharkiv region).<br>Interferometer URAN-1 (m.Zmiyiv Kharkiv region).<br>Interferometer URAN-2 (s.Stepanivka Poltava region)<br>Interferometer URAN-3 (m.Shatsk Volyn region).<br>Interferometer URAN-4 (p. Lighthouses, Belyayevskoho district of Odessa region)<br><br><a href="http://www.uran.net.ua/~eng/frames.htm" target="_blank">The URAN Network</a><br><br><a href="http://www.uran.net.ua/archives/98may-mengerskirchen/index.htm" target="_blank"><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/IRA_URAN_VLBI_map.gif"/></a></p>]]></description>
+			<Placemark>
+				<name>GURT</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<p>Chkalovske, Kharkivska, Ukraine<br>Giant Ukrainian Radio Telescope (GURT)<br><br>The need for a new giant ground of low-frequency radio telescopes have long been recognized in Radio Astronomy world, including in Ukraine. About 15 years ago these ideas to some extent compete with the draft allocation of low-frequency instruments in space to avoid confounding factors in the range of extremely low frequencies. However, space projects have a number of problems related to efficiency, reliability and lifetime of tools, and astrophysical constraints. All this makes the prospective construction of low-frequency radio telescopes on the Earth's giant surface. Currently under construction tools such as LOFAR in the Netherlands and the LWA in the U.S..<br><br>At the Radio Astronomy Institute of NASU Ukrainian construction of the Giant Radio Telescope (GURT). The figure shows a possible plan of placement of a 25-element antenna arrays, dipoles of the active range of 8-70 MHz for Radio Astronomy Observatory im.S.Ya.Braude RI National Academy of Sciences. The target program of the Presidium of NAS involves the creation of eight sections in 2008 and the completion of 40 sections at the end of 2009. Source: <a href="http://translate.google.com/translate?u=http://ri.kharkov.ua/decameter/gurt.php" target="_blank">ri.kharkov.ua</a><br><br><a href="http://translate.google.com/translate_c?u=http://ri.kharkov.ua/decameter/array25.php" target="_blank"><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/UTR-2-04.jpg" /></a><br><br><a href="http://translate.google.com/translate?u=http://ri.kharkov.ua/decameter/gurt.php" target="_blank"><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/UTR-2-GURT.jpg" /></a></p>]]></description>
+				<LookAt>
+					<longitude>36.94139187225786</longitude>
+					<latitude>49.63828103664341</latitude>
+					<altitude>0</altitude>
+					<heading>0.004422379779354041</heading>
+					<tilt>0</tilt>
+					<range>2989.777608959481</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>36.94139187225787,49.63828103664341,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>UTR-2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<p>Chkalovske, Kharkivska, Ukraine<br>Ukrainian T-shaped Radio Telescope 2<br><br>The Ukrainian T-shaped Radio telescope, second modification (official abbreviation UTR-2) is the world's largest radio telescope at decametre wavelengths. It was built in the early 1970s near the village of Hrakovo (49°38′N 36°56′E), 65 km south-east from Kharkiv, Ukraine in the time of Soviet Union empire. The telescope is operated by the <a href="http://www.ira.kharkov.ua/eng_main.htm" target="_blank">Institute of Radio Astronomy</a> of the Ukrainian Academy of Sciences.<br><br>The UTR-2 comprises 2040 array elements in two arms: north-south (1800×60 m) and west-east (900×60 m). It has the collective area of 150,000 square metres (1,600,000 sq ft), and the resolution about 40'×40' (12×12 m) at the middle frequency 16.7 MHz. The operating frequency range is 8–40 MHz. The sensitivity is about 10 Jy.<br><br>The telescope is a part of the Soviet decametric VLBI system URAN, which included another four radio telescopes of smaller size. The system has bases from 40 to 900 km (25 to 960 mi).Source: <a href="http://en.wikipedia.org/wiki/UTR-2" target="_blank">Wikipedia</a><br><br><a href="http://climateviewer.org/img/2018/29834610.jpg" target="_blank"><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/UTR-2-01.jpg" /></a><br><br><a href="http://wikimapia.org/5938698/UTR-2-radio-telescope" target="_blank"><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/UTR-2-02.jpg" /></a><br><br><a href="http://wikimapia.org/5938698/UTR-2-radio-telescope" target="_blank"><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/UTR-2-03.jpg" /></a></p>]]></description>
+				<LookAt>
+					<longitude>36.94139187225786</longitude>
+					<latitude>49.63828103664341</latitude>
+					<altitude>0</altitude>
+					<heading>0.004422379779354041</heading>
+					<tilt>0</tilt>
+					<range>2989.777608959481</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>36.94139187225787,49.63828103664341,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>UTR-2</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<styleUrl>#msn_radz</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								36.92865805355307,49.63849038163492,0 36.9287191970839,49.63802812825554,0 36.94094704516316,49.638011860476,0 36.94102734315064,49.62995010197592,0 36.94179872697754,49.62994979494191,0 36.94177739416362,49.64661696494982,0 36.94103906941157,49.64661766671278,0 36.9409526343262,49.63848431676395,0 36.92865805355307,49.63849038163492,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>URAN-1</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<p>Zmiyiv, Kharkivska, Ukraine<br><br>The Radiophysical Observatory comprises an MF radar, a spaced antenna drift radar, a HF Doppler radar (at vertical and oblique incidence), satellite radio beacon receivers, a fluxgate magnetometer, a UHF receiver system, and an ionosonde. The instrumentation allows the processes acting in the ionosphere within an altitude range of ~60–1000 km and characteristics of radio-wave propagation on many frequencies within a frequency band of 30 kHz–2 GHz to be investigated.<br><br>Transmitter peak power of 100 kW (300 kW), average power of 100 kW (1 kW), pulse length of 20 ms up to continuous mode (10 – 300 ms), pulse repetition rate of 1 – 100 per second (1 – 10 per second), receiver dynamic range of 86 dB (86 dB), IF bandwidth of 60 kHz (60 kHz). Source: <a href="http://www-radiophys.univer.kharkov.ua/space/">The Department of Space Radio Physics</a><br><br>Details:<br><a href="http://iion.org.ua/">Russian</a><br><a href="http://translate.google.com/translate?hl=en&amp;sl=auto&amp;tl=en&amp;u=http%3A%2F%2Fiion.org.ua%2F">English</a><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/URAN-1-01.jpg" /><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/URAN-1-02.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>36.35423928539172</longitude>
+					<latitude>49.66570990971598</latitude>
+					<altitude>0</altitude>
+					<heading>0.04722615109806176</heading>
+					<tilt>0</tilt>
+					<range>341.6499682496806</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>36.35423928539171,49.66570990971598,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>URAN-2</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<p>Stepanivka, Poltavs'ka oblast, Ukraine<br><br><a href="http://translate.google.com/translate?sl=auto&amp;tl=en&amp;js=n&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=2&amp;eotf=1&amp;u=http%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259F%25D0%25BE%25D0%25BB%25D1%2582%25D0%25B0%25D0%25B2%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F_%25D0%25B3%25D1%2580%25D0%25B0%25D0%25B2%25D0%25B8%25D0%25BC%25D0%25B5%25D1%2582%25D1%2580%25D0%25B8%25D1%2587%25D0%25B5%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F_%25D0%25BE%25D0%25B1%25D1%2581%25D0%25B5%25D1%2580%25D0%25B2%25D0%25B0%25D1%2582%25D0%25BE%25D1%2580%25D0%25B8%25D1%258F&amp;act=url" target="_blank">Poltava Gravimetric Observatory</a><br><a href="http://wikimapia.org/20999947/ru/%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%BA%D0%BE%D0%BF%D0%B0-%D0%A3%D0%A0%D0%90%D0%9D-2" target="_blank">Wikimapia</a><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/URAN-2-01.jpg" /><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/URAN-2-02.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>34.82369034704534</longitude>
+					<latitude>49.63021775617825</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0009547502466387165</heading>
+					<tilt>3.841370784035056</tilt>
+					<range>174.797448500804</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>34.82369034704534,49.63021775617825,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>URAN-3</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<p>Shatsk, Volynska, Ukraine<br><a href="http://wikimapia.org/2062607/Antenna-field-of-radio-telescope-URAN-3" target="_blank">Wikimapia</a><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/URAN-3-01.jpg" /><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/URAN-3-02.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>23.82730126996925</longitude>
+					<latitude>51.47196248136797</latitude>
+					<altitude>0</altitude>
+					<heading>0.0002750859007649949</heading>
+					<tilt>14.42598098657376</tilt>
+					<range>324.8769017365861</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>23.82730126996925,51.47196248136796,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>URAN-4</name>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<p>Bilyayivka, Odeska , Ukraine<br><br><a href="http://chair.astro-observ.odessa.ua/" target="_blank">Homepage (Russian)</a><br><a href="http://wikimapia.org/21633014/ru/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%BA%D0%BE%D0%BF-%D0%A3%D1%80%D0%B0%D0%BD-4" target="_blank">Wikimapia</a><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/URAN-4.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>30.2719111109428</longitude>
+					<latitude>46.39580833373395</latitude>
+					<altitude>0</altitude>
+					<heading>-0.0007998625243428269</heading>
+					<tilt>0</tilt>
+					<range>251.6126151998984</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>30.2719111109428,46.39580833373395,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>e-VLBI (extended Very Long Baseline Interferometer)</name>
+			<Placemark>
+				<name>e-VLBI - Ny Ålesund</name>
+				<description><![CDATA[<p>ISR <a id="main-photo" href="http://climateviewer.org/img/gallery/6230774.jpg" title="radio telescope next to the runway in Ny Alesund - 1200 x 1600 pixels"><img src="http://climateviewer.org/img/gallery/6230774.jpg" alt="radio telescope next to the runway in Ny Alesund"></a></p>]]></description>
+				<LookAt>
+					<longitude>11.87092880714186</longitude>
+					<latitude>78.92889106241856</latitude>
+					<altitude>0</altitude>
+					<heading>-132.525556252049</heading>
+					<tilt>6.97447428850469</tilt>
+					<range>155.9957699714819</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>11.87092880714186,78.92889106241856,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI Westford Radio Telescope</name>
+				<description>VLF Radar</description>
+				<LookAt>
+					<longitude>-71.49387183574913</longitude>
+					<latitude>42.61289600841288</latitude>
+					<altitude>0</altitude>
+					<heading>5.89531882213375</heading>
+					<tilt>4.549513755431839</tilt>
+					<range>170.1520561042762</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-71.49387183574913,42.61289600841288,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - OHIGGINS</name>
+				<description><![CDATA[<p>Antarctica<br>ERS/VLBI Station O'Higgins<br>IVS Oh<br>OHIGGINS<br>Walter Schwartz<br>Ulrich Schreiber<br>Bundesamt für Kartographie und Geodäsie (BKG), Germany</p>]]></description>
+				<LookAt>
+					<longitude>-57.89870124429994</longitude>
+					<latitude>-63.32086215715879</latitude>
+					<altitude>0</altitude>
+					<heading>1.143930797948894</heading>
+					<tilt>0</tilt>
+					<range>746.8529224912352</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-57.89870124429995,-63.32086215715879,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - SYOWA10</name>
+				<description><![CDATA[<p>Syowa Station, Antarctica<br><a href="http://ivs.nict.go.jp/mirror/publications/ar1999/nssyow/nssyow.html" target="_blank">Japanese Antarctic Research Expedition (JARE)</a><br><a href="http://www.nipr.ac.jp/english/" target="_blank">National Institute of Polar Research</a></p><p><a href="http://www.thelivingmoon.com/45jack_files/03files/IRIS_Syowa_Station_Antarctica.html" target="_blank"><img src="http://climateviewer.org/img/gallery/vlbi-syowa-station.jpg"/></a><br><br><a href="http://www.thelivingmoon.com/45jack_files/03files/IRIS_Syowa_Station_Antarctica.html" target="_blank"><img src="http://climateviewer.org/img/gallery/syowa-station.gif"/></a></p>]]></description>
+				<LookAt>
+					<longitude>39.58746787763159</longitude>
+					<latitude>-69.00635910298294</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004923375069360325</heading>
+					<tilt>0</tilt>
+					<range>763.8870222529031</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>39.58746787763159,-69.00635910298294,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - HOBART26</name>
+				<description><![CDATA[<p>Australia<br>Hobart, <a href='http://en.wikipedia.org/wiki/Mount_Pleasant_Radio_Observatory'>Mt. Pleasant Radio Observatory</a><br>Ho<br>HOBART26<br>Brett Reid<br>University of Tasmania<br><br><img src="http://climateviewer.org/img/gallery/800px-Mount_Pleasant_Radio_Telescope.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>147.4407938755542</longitude>
+					<latitude>-42.80353729006318</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001933766680337696</heading>
+					<tilt>0</tilt>
+					<range>256.8304039852</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>147.4407938755542,-42.80353729006318,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - PARKES</name>
+				<description><![CDATA[<p>Australia<br><a href='http://www.parkes.atnf.csiro.au/'>Parkes Observatory</a><br>Pa<br>PARKES<br>John Reynolds<br>Tasso Tzioumis<br>CSIRO<br><br><img src="http://climateviewer.org/img/gallery/PA8685_flip_sml.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>148.2640548833325</longitude>
+					<latitude>-32.99865368319546</latitude>
+					<altitude>0</altitude>
+					<heading>-0.003125890742146109</heading>
+					<tilt>0</tilt>
+					<range>584.9694980236004</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>148.2640548833325,-32.99865368319546,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - FORTLEZA</name>
+				<description><![CDATA[<p>Brazi<br>Fortaleza, <a href='https://ivscc.gsfc.nasa.gov/publications/ar2009/nsfort/'>Radio Observatorio Espacial do Nordes (ROEN)</a><br>Ft<br>FORTLEZA<br>Macilio Lucena<br>Pierre Kaufmann<br>Centro de Radio Astronomia e Aplicacoes Espaciais<br><br>SPACE GEODESY PROGRAM ( Operated jointly with Mackenzie Presbyterian Institute/Mackenzie Prebyterian University/CRAAE and CRAAM, So Paulo, within a NASA-Brazilian Space Agency Agreement, partially supported by a NASA-Mackenzie contract.) is constituted by the following projects:<br><br>ROEN, (Rádio-Observatório Espacial do Nordeste - Northeastern Space Radio Observatory ) is constituted by the 14.2 m radio telescope, on one alt-azimuth positioner. It is operated at S- and X-bands, using cryogenic radiometers. Observations are recorded with a Mark III data acquisition system. One Sigma-Tau hydrogen maser clock standard is operated at ROEN. <br><br>Geodetic GPS station is a complete geodetic station, constituted by antenna, receiver and computer. It is working 24 hours a day and is part of the international IGS network;<br>Physics of Atmosphere Program, in cooperation with UECE - University of Ceará State;<br>GIGA Network is a project to link some of the biggest institutions of Fortaleza through a optical network, in design.<br><br>MAGNETOMETER: It is composed by sensors, data acquisition and recording system, designed to continuously measure the intensity and direction of Earth geomagnetic field.<br><br>IONOSONDA: It is composed by a transmitter-receiver system, a set of antennas and a computer, to continuously make the sounding of the ionosphere.<br><br>Kit ZISC:  It's a Connectionist Kit for evaluation regarding the development of Artificial Neural Networks on re-configurable hardware.<br><br><img src="http://climateviewer.org/img/gallery/roen-sign.gif" /><br><br><img src="http://climateviewer.org/img/gallery/roen-dish.gif" /></p>]]></description>
+				<LookAt>
+					<longitude>-38.42580669444414</longitude>
+					<latitude>-3.878122495351456</latitude>
+					<altitude>0</altitude>
+					<heading>1.973679528096053e-005</heading>
+					<tilt>5.815935309366774</tilt>
+					<range>367.0685059857459</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-38.42580669444415,-3.878122495351456,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - TIGOCONC</name>
+				<description><![CDATA[<p>Chile<br><a href='http://www.tigo.cl'>Transportable Integrated Geodetic Observatory (TIGO)</a><br>Tc<br>TIGOCONC<br>Hayo Hase<br>Ulrich Schreiber<br>Universidad de Concepción (UdeC), Instituto Geográfico Militar (IGM),<br>Bundesamt für Kartographie und Geodäsie (BKG, Germany)<br><br><br><img src="http://climateviewer.org/img/gallery/tigo_banner.png" /></p>]]></description>
+				<LookAt>
+					<longitude>-73.02508158183171</longitude>
+					<latitude>-36.84269545364485</latitude>
+					<altitude>0</altitude>
+					<heading>3.973141202480552</heading>
+					<tilt>5.121821767516148</tilt>
+					<range>255.5254845075802</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-73.02508158183173,-36.84269545364485,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - URUMQI</name>
+				<description><![CDATA[<p>China<br><a href='http://english.xao.ac.cn/au/bi/'>Nanshan VLBI Station</a><br>Ur<br>URUMQI<br>Ali Yusup<br>Wang Na<br>Chinese Academy of Sciences<br><br>AKA - Urumqi Observatory,National Astronomical<br>- 中国科学院新疆天文台<br><br><img src="http://climateviewer.org/img/gallery/nanshan-vlbi-station.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>87.17849202831513</longitude>
+					<latitude>43.47155328310987</latitude>
+					<altitude>0</altitude>
+					<heading>-10.6645522827744</heading>
+					<tilt>0</tilt>
+					<range>645.2444540364913</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>87.17849202831513,43.47155328310987,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>e-VLBI - SESHAN25</name>
+				<description><![CDATA[<p><pre>China<br><a href='http://www.shao.ac.cn/eng/rh/vlbi/200908/t20090805_27086.html'>Sheshan VLBI Station</a><br>Sh<br>SESHAN25<br>Liang Shiguang<br>Huang Xinyong<br>Joint Laboratory for Radio Astronomy (JLRA), CAS and Shanghai Observatory, CAS<br><br><br><img src="http://climateviewer.org/img/gallery/W020090805276874064384.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>121.1998232005049</longitude>
+					<latitude>31.09928230799337</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01183322688671646</heading>
+					<tilt>0.4352385207253642</tilt>
+					<range>225.959876459451</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>121.199823200505,31.09928230799337,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Haystack Observatory, USA</name>
+			<Placemark>
+				<name>HAX - HUSIR</name>
+				<open>1</open>
+				<description><![CDATA[<p>Millstone Hill, Massachusetts<br>Haystack Ultra-wideband Satellite Imaging Radar (HUSIR)<br><br><a href="http://www.haystack.mit.edu/" target="_blank">MIT Haystack Observatory</a><br><br>The Haystack Radar currently operates in the 9.5 GHz to 10.5 GHz frequency band.  As part of the upgrade, a millimeter-wave radar that operates in the 92 GHz to 100 GHz frequency band will be added to the system.  The new radar will use an innovative transmitter design and signal processing to achieve image resolution that is about 10 times better than what is currently available.  The existing 37 meter (120 foot) antenna will be replaced by a new dish, accurate to 0.1 millimeter (0.004 inch) over its entire surface, which is a factor of 3 better than at present.  The new antenna will permit the Haystack radio-telescope to operate in the 150 GHz range or higher, making it a premier radio-astronomy facility.  L-3 ESSCO of Concord, MA, has been selected to design, fabricate, and install the new antenna. Source: <a href="http://www.haystack.mit.edu/obs/haystack/LincolnUpgrade.pdf" target="_blank">Haystack Upgrade Program</a><br><br><img src="http://climateviewer.org/img/gallery/HUSIR-haystack-observatory.png"/></p>]]></description>
+				<LookAt>
+					<longitude>-71.48790797005758</longitude>
+					<latitude>42.62356254606495</latitude>
+					<altitude>0</altitude>
+					<heading>0.002150939384486132</heading>
+					<tilt>36.04288582321055</tilt>
+					<range>600.4082395171807</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>-71.48737654734762,42.62334399436478,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MHO: Westford Radio Telescope</name>
+				<open>1</open>
+				<description><![CDATA[<p>Millstone Hill, Massachusetts<br><a href="http://www.haystack.mit.edu/" target="_blank">MIT Haystack Observatory</a><br><br>Built in 1961 to support Project West Ford, this very capable 18.3 meter (60 foot) radome-enclosed radio telescope has seen many uses throughout its life. In the begining it was used as an x-band radar to test the limits of communications technologies. Since 1981 its primany use has been in support of <a href="http://www.haystack.mit.edu/geo/index.html" target="_blank">geodetic VLBI</a> operations. The Westford Antenna also acts as a test bed for NASA in the development of new equipment and techniques supporting the worldwide geodetic VLBI program, and it is used to support the <a href="http://www.haystack.mit.edu/obs/westford/pdf/9_1terrestrialair.pdf" target="_blank">Terrestrial Air Link (TAL)</a> program at Lincoln laboratory. Source: <a href="http://www.haystack.mit.edu/obs/westford/index.html" target="_blank">Westford Radio Telescope homepage</a><br><br><img src="http://climateviewer.org/img/gallery/Westfordatnight.gif"/></p>]]></description>
+				<LookAt>
+					<longitude>-71.49360185083955</longitude>
+					<latitude>42.61304773530814</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001709183922543995</heading>
+					<tilt>35.85016011231743</tilt>
+					<range>242.0196745402259</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>-71.49387333016131,42.61288332575889,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Millstone Hill I.S. Radar</name>
+				<open>1</open>
+				<description><![CDATA[<p>Millstone Hill, Massachusetts<br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:mlh" target="_blank">MLH</a></p><p><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:CedarInstruments?action=detail&kinst=30" target="_blank">Instrument Details</a><br><a href="http://www.haystack.mit.edu/" target="_blank">MIT Haystack Observatory</a></p>]]></description>
+				<LookAt>
+					<longitude>-71.49108621459121</longitude>
+					<latitude>42.61741865070707</latitude>
+					<altitude>0</altitude>
+					<heading>-1.226474809602231e-006</heading>
+					<tilt>36.04361134933483</tilt>
+					<range>200.4745740121298</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>-71.49112783172924,42.61779257455866,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Millstone Hill: steerable UHF antenna</name>
+				<open>1</open>
+				<description><![CDATA[<p>Millstone Hill, Massachusetts<br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:mlh" target="_blank">MLH</a></p><p><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:CedarInstruments?action=detail&kinst=31" target="_blank">Instrument Details</a><br><a href="http://www.haystack.mit.edu/" target="_blank">MIT Haystack Observatory</a></p>]]></description>
+				<LookAt>
+					<longitude>-71.49088057650279</longitude>
+					<latitude>42.61962763414304</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001561018744911383</heading>
+					<tilt>0</tilt>
+					<range>238.1853870741571</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>-71.4908805765028,42.61962763414304,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Millstone Hill: zenith UHF antenna</name>
+				<open>1</open>
+				<description><![CDATA[<p>Millstone Hill, Massachusetts<br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:mlh" target="_blank">MLH</a></p><p><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:CedarInstruments?action=detail&kinst=32" target="_blank">Instrument Details</a><br><a href="http://www.haystack.mit.edu/" target="_blank">MIT Haystack Observatory</a></p>]]></description>
+				<LookAt>
+					<longitude>-71.4911991188892</longitude>
+					<latitude>42.6190405546262</latitude>
+					<altitude>0</altitude>
+					<heading>0.000128496651352312</heading>
+					<tilt>0</tilt>
+					<range>228.8388122396172</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>-71.49071998780771,42.61907696516936,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Millstone Hill: steerable L-band ant.</name>
+				<open>1</open>
+				<description><![CDATA[<p>Millstone Hill, Massachusetts<br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:mlh" target="_blank">MLH</a></p><p><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:Cedar_Sites?action=detail&site=8" target="_blank">Instrument Details</a><br><a href="http://www.haystack.mit.edu/" target="_blank">MIT Haystack Observatory</a></p>]]></description>
+				<LookAt>
+					<longitude>-71.49108621459121</longitude>
+					<latitude>42.61741865070707</latitude>
+					<altitude>0</altitude>
+					<heading>-1.226474809602231e-006</heading>
+					<tilt>36.04361134933483</tilt>
+					<range>200.4745740121298</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>-71.4907642989303,42.61737823958302,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Other</name>
+			<Placemark>
+				<name>Platteville Atmospheric Observatory</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<p>Aristocrat_Ranchettes, Colorado, USA<br>Original location of the HIPAS instrument<br><br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:plr" target="_blank">PLR</a></p><p><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:CedarInstruments?action=detail&amp;kinst=1285" target="_blank">Instrument Details</a></p><p>The Platteville Atmospheric Observatory was envisioned in 1962 by what is now the Institute of Telecommunication Sciences (ITS), a part of the National Telecommunications and Information Administration (NTIA), as a site for high-powered radio experiments.<br><br>While the initial experiment, that took place in 1968, studied over-the-horizon radar, the majority of later experiments used high power radio waves to modify the ionosphere in a process that is sometimes called ionospheric heating because it raises the electron temperature in the ionosphere.<br><br>The ionospheric heater was still used until 1984, when the last ionospheric experiments were performed. In the same year, the transmitters were loaned to the Office of Naval Research and sent to HIPAS in Alaska where they are still used.<br><br>With the removal of the transmitters, the focus of the facility changed to smaller-powered observation of the atmosphere rather than modifying it. In 1988 the 404 MHz RASS was installed and the ownership of the facility was transferred from NTIA to NOAA-ERL.<br><br>SOURCE: <a href="http://grison.colorado.edu/Radar_Stations/Platteville/Platteville.html" target="_blank">Platteville Atmospheric Observatory</a><br><h3>Platteville Colorado ST (MEDAC) Radar</h3><br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:pla" target="_blank">PLA</a><br><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:CedarInstruments?action=detail&amp;kinst=2200" target="_blank">Instrument Details</a></p>]]></description>
+				<LookAt>
+					<longitude>-104.7247289769918</longitude>
+					<latitude>40.18195204594415</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001627788110001833</heading>
+					<tilt>9.284759104275846</tilt>
+					<range>457.9988543636575</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_satellite_dish</styleUrl>
+				<Point>
+					<coordinates>-104.7247289769918,40.18195204594416,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>RISR-N - Resolute Bay North Face</name>
+				<description><![CDATA[<p><a href='http://amisr.com/'>Advanced Modular Incoherent Scatter Radar (AMISR)</a><br><br><img src="http://climateviewer.org/img/gallery/GRL-cvr-lg.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>-94.90313876695628</longitude>
+					<latitude>74.72922981144079</latitude>
+					<altitude>0</altitude>
+					<heading>0.02781856064703566</heading>
+					<tilt>24.10821684200969</tilt>
+					<range>358.6017333007859</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-94.9053471376111,74.72873445206939,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CARMA-D</name>
+				<description><![CDATA[<p><a href='https://www.mmarray.org/'>The Combined Array for Research in Millimeter-wave Astronomy (CARMA)</a> is an astronomical instrument comprising 23 radio telescopes. These telescopes form an astronomical interferometer where all the signals are combined in a purpose-built computer (a correlator) to produce high-resolution astronomical images.<br><br>According to the CARMA observatory catalog, the median height of all telescope pads is at an elevation of 2196.223 m (7205.807 ft). The observatory is located in the Inyo Mountains to the east of the Owens Valley Radio Observatory, at a site called Cedar Flat, accessed through Westgard Pass. The high elevation site was chosen to minimize millimeter wave absorption and phase decoherence by atmospheric water vapor.<br><br>Until the Atacama Large Millimeter Array in Chile is in full operation, this instrument will be the most powerful millimeter wave interferometer in the world.<br><br>This array is unique for being a heterogeneous collection of radio telescopes of varying sizes and design. There are three types of telescopes, all Cassegrain reflector antennas with parabolic primary mirrors and hyperbolic secondary mirrors:<br><br>6 Telescopes each 10.4 meters (34 feet) in diameter. These were part of the Millimeter Array at the OVRO site operated by Caltech. They were moved to Cedar Flat in the spring of 2005.<br>9 Telescopes each 6.1 meters (20 feet) in diameter. These were formerly located at the Hat Creek Radio Observatory and operated by the Berkeley-Illinois-Maryland-Association (BIMA) consortium. These were moved from HCRO in the spring of 2005 to Cedar Flat.<br>8 Telescopes each 3.5 meters (11.5 feet) in diameter. These were built as an instrument for cosmology and are also known as the Sunyaev-Zel'dovich Array (SZA), a project led by John Carlstrom at the University of Chicago. The SZA spent three years on the valley floor at the Owens Valley Radio Observatory observing the cosmic microwave background (CMB) and galaxy clusters. In the summer of 2008 it was moved up to Cedar Flat. The array presently observes radio waves with wavelengths of 1 cm (about 30 GHz) and 3 mm (about 100 GHz).<br><br><a href="http://static.panoramio.com/photos/original/34233492.jpg" title="CARMA C-config - 7499 x 1841 pixels" target="_blank"><img src="http://climateviewer.org/img/gallery/34233492.jpg" alt="CARMA C-config"></a><br><br></p>]]></description>
+				<LookAt>
+					<longitude>-118.1413779811946</longitude>
+					<latitude>37.28041564683508</latitude>
+					<altitude>0</altitude>
+					<heading>0.005720636665196791</heading>
+					<tilt>0</tilt>
+					<range>365.9076604098103</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-118.1406829557764,37.28053074926759,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="AtacamaLargeMillimeterArrayALMA">
+				<name>Atacama Large Millimeter Array (ALMA)</name>
+				<description><![CDATA[<p><a href="https://public.nrao.edu/gallery/japanese-antennas-pair-up/" ><img src="http://climateviewer.org/img/gallery/alma-antenna-pair.jpg" /></a><br><p>ALMA will be the world’s most powerful telescope for studying the Universe at submillimetre and millimetre wavelengths, on the boundary between infrared light and the longer radio waves. However, ALMA does not resemble many people’s image of a giant telescope. It does not use the shiny, reflective mirrors of visible- and infrared-light telescopes; it is instead comprised of many “antennas” that look like large metallic satellite dishes.</p><p>Several antennas have already been installed in the harsh conditions of the 5000-metre altitude Chajnantor plateau, and more are under construction at the 2900-metre altitude Operations Support Facility. When ALMA is fully operational a couple of years from now, visitors to Chajnantor will encounter 66 antennas, 54 of them with 12-metre diameter dishes, and 12 smaller ones, with a diameter of 7 metres each.</p><p>The most visible part of each antenna is the dish, a large reflecting surface. Most of ALMA’s dishes have a diameter of 12 metres. Each dish plays the same role as the mirror of an optical telescope: it collects radiation coming from distant astronomical objects, and focuses it into a detector that measures the radiation. The difference between the two types of telescopes is the wavelength of the radiation detected. Visible light, captured by optical telescopes, is just a small part of the spectrum of electromagnetic radiation, with wavelengths between roughly 380 and 750 nanometres. ALMA, in contrast, will probe the sky for radiation at longer wavelengths from a few hundred micrometres to about 1 millimetre (about one thousand times longer than visible light). This is known, perhaps unsurprisingly, as millimetre and submillimetre radiation, and lies at the very short-wavelength end of radio waves.</p><br><br><p>Three ALMA antennas linked together as an interferometer for the first time, on the 5000-meter altitude plateau of Chajnantor. Having three antennas observing in unison makes it possible to correct errors that arise when only two antennas are used, thus paving the way for precise images of the cool Universe at unprecedented resolution.</p><p>This longer wavelength is the reason why ALMA’s dishes are not mirrors, but have a surface of metallic panels. The reflecting surfaces of any telescope must be virtually perfect: if they have any defects that are larger than a few percent of the wavelength to be detected, the telescope won’t produce accurate measurements. The longer wavelengths that ALMA’s antennas detect mean that although the surfaces are accurate to within 25 micrometres — much less than the thickness of a single sheet of paper, the dishes do not need the mirror finish used for visible-light telescopes. So although ALMA’s dishes look like giant metallic satellite dishes, to a submillimetre-wavelength photon (light-particle), they are almost perfectly smooth reflecting surfaces, focusing the photons with great precision.</p><p>Not only are the dish surfaces carefully controlled, but the antennas are can be steered very precisely and pointed to an angular accuracy of 0.6 arcseconds (one arcsecond is 1/3600 of a degree). This is accurate enough to pick out a golf ball at a distance of 15 kilometres.</p><p>ALMA will combine the signals from its array of antennas as an interferometer — acting like a single giant telescope as large as the whole array. Thanks to the two antenna transporter vehicles, astronomers will be able to reposition the antennas according to the kind of observations needed. So, unlike a telescope that is constructed and remains in one place, the antennas are robust enough to be picked up and moved between concrete foundation pads without this affecting their precision engineering.</p><p>In addition, the antennas achieve all this without the protection of a telescope dome or enclosure. The dishes are exposed to the harsh environmental conditions of the high altitude Chajnantor plateau, with strong winds, intense sunlight, and temperatures between +20 and -20 Celsius. Despite Chajnantor being in one of the driest regions on the planet, there is even sometimes snow here, but ALMA’s antennas are designed to survive all these hardships.</p><p>The production of the antennas is being shared between the ALMA partners. ESO has ordered 25 12-metre antennas, with an option for an additional seven, from the AEM Consortium (Alcatel Alenia Space France, Alcatel Alenia Space Italy, European Industrial Engineering S.r.L., MT Aerospace). The North American partners have placed an order of the same size with Vertex RSI, while the four 12-metre and twelve 7-metre antennas comprising ALMA’s Atacama Compact Array have been ordered by NAOJ from MELCO (Mitsubishi Electric Corporation).</p><p>Apart from the obvious difference in size between the 12-metre and 7-metre antennas, careful observers will spot subtle differences in the antenna design from each partner. However, all the antennas are designed to meet the stringent technical specifications, and work together smoothly as parts of the whole. These state-of-the-art dishes, combined in a single revolutionary telescope, reflect the cooperative nature of the global ALMA project.</p><a href='http://www.almaobservatory.org/en/about-alma-at-first-glance/how-alma-works/technologies/antennas/'><img src='http://climateviewer.org/img/gallery/6-880x350.jpg' alt='ALMA antennas'></a>]]></description>
+				<LookAt>
+					<longitude>-67.75424434091855</longitude>
+					<latitude>-23.02791007693943</latitude>
+					<altitude>0</altitude>
+					<heading>0.0003803675436594864</heading>
+					<tilt>22.44025310772566</tilt>
+					<range>443.6926930642287</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-67.75424434091855,-23.02791007693943,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Submillimeter Array</name>
+				<description><![CDATA[<p><a href='https://www.cfa.harvard.edu/sma/'>The Submillimeter Array (SMA)</a> consists of eight 6-metre (20 ft) diameter radio telescopes arranged as an interferometer for submillimeter wavelength observations. It is the first purpose-built submillimeter interferometer, constructed after successful interferometry experiments using the pre-existing 15-metre (49 ft) James Clerk Maxwell Telescope and 10.4-metre (34.1 ft) Caltech Submillimeter Observatory as an interferometer. All of these telescopes are located at Mauna Kea Observatory on Mauna Kea, Hawaii, and can be operated together as a ten element interferometer in the 230 and 345 GHz bands (eSMA, for extended Submillimeter Array). The baseline lengths presently in use range from 16 to 508 metres (52 to 1,667 ft), and up to 783 metres (2,569 ft) for eSMA operations. The radio frequencies accessible to this telescope range from 180 to 700 GHz which includes rotational transitions of dozens of molecular species as well as continuum emission from interstellar dust grains. Although the array is capable of operating both day and night, most of the observations take place at nighttime when the atmospheric phase stability is best.<br><br>The SMA is jointly operated by the Smithsonian Astrophysical Observatory and the Academia Sinica Institute of Astronomy and Astrophysics.<br><br>The SMA is a multi-purpose instrument which can be used to observe diverse celestial phenomena. The SMA excels at observations of dust and gas with temperatures only a few tens of kelvins above absolute zero. Objects with such temperatures typically emit the bulk of their radiation at wavelengths between a few hundred micrometers and a few millimeters, which is the wavelength range in which the SMA can observe. Commonly observed classes of objects include star-forming molecular clouds in our own and other galaxies, highly redshifted galaxies, evolved stars, and the Galactic Center. Occasionally, bodies in our own solar system, such as planets, asteroids, comets, and moons, are observed.<br><br>The SMA has been used to discover that Pluto is 10 K (18 °F) cooler than expected.[1] It was the first radio telescope to resolve Pluto and Charon as separate objects.[2]<br><br><a href='http://en.wikipedia.org/wiki/Submillimeter_Array'><img src="http://climateviewer.org/img/gallery/800px-Smithsonian_Submillimeter_Array.jpg" /></a></p>]]></description>
+				<LookAt>
+					<longitude>-155.4778103125361</longitude>
+					<latitude>19.8242794093723</latitude>
+					<altitude>0</altitude>
+					<heading>0.0004870758284383357</heading>
+					<tilt>0</tilt>
+					<range>338.7307186018083</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-155.4786868942682,19.82453192279012,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="MurchisonWidefieldArray">
+				<name>Murchison Widefield Array</name>
+				<description><![CDATA[<p>MWA: From the Outback to the Cosmos, a vodcast, provides a closer look at the capabilities of this exciting new telescope.<br><br><a href="http://static.panoramio.com/photos/original/46440413.jpg" title="Wide field array - 7094 x 3331 pixels"><img src="http://climateviewer.org/img/gallery/46440413.jpg" alt="Wide field array"></a><br><br>The goal of the <a href='http://www.mwatelescope.org/'>Murchison Widefield Array (MWA)</a>, formerly known as the Mileura Widefield Array, is to develop powerful new capabilities for radio astronomy and heliospheric science at frequencies from 80 to 300 MHz, optimized for extremely wide fields of view and unprecedented sensitivity at those frequencies. The MWA has specific scientific goals , and is underway as an international project led by the MIT Haystack Observatory with strong collaboration from the MIT Kavli Institute for Astrophysics and Space Science, the Harvard-Smithsonian Center for Astrophysics, a number of Australian universities and research institutions, and the Raman Research Institute in India. A description of the project’s organizational structure and partnerships can be found here. <br><br><img src="http://climateviewer.org/img/gallery/1t_ground_shot.JPG" /></p>]]></description>
+				<LookAt>
+					<longitude>116.6584457569039</longitude>
+					<latitude>-26.70360893579246</latitude>
+					<altitude>0</altitude>
+					<heading>-0.07132541994451704</heading>
+					<tilt>0</tilt>
+					<range>1764.165139237437</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>116.6612514750402,-26.70215260787761,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Australian Square Kilometre Array Pathfinder</name>
+				<description><![CDATA[<p><a href='https://www.atnf.csiro.au/projects/askap/index.html'>The Australian Square Kilometre Array Pathfinder</a>, or ASKAP, is CSIRO’s new radio telescope currently under construction at the Murchison Radio-astronomy Observatory (MRO) in Mid West region of Western Australia. Construction on ASKAP began in late 2009 and is expected to be completed by 2013.<br><br>ASKAP’s combination of fast survey speed and high sensitivity will allow astronomers to answer some fundamental questions about the creation and early evolution of our Universe, and to test theories of cosmic magnetism and predictions from Einstein's theory of general relativity.<br><br>ASKAP will also be an important technology demonstrator for the international Square Kilometre Array (SKA) project, a future international radio telescope that will be the world’s largest and most sensitive[3]. ASKAP's home, the MRO, is also the candidate 'core' site in Australia and New Zealand's bid for the SKA.<br><br><a href="http://upload.wikimedia.org/wikipedia/commons/1/1a/CSIRO_ASKAP_2010.jpg" target="_blank"><img alt="CSIRO ASKAP 2010.jpg" src="http://climateviewer.org/img/gallery/800px-CSIRO_ASKAP_2010.jpg"></a></p>]]></description>
+				<LookAt>
+					<longitude>116.6603451402617</longitude>
+					<latitude>-26.70516985511038</latitude>
+					<altitude>0</altitude>
+					<heading>-0.07217900129618142</heading>
+					<tilt>0</tilt>
+					<range>2924.362918849147</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>116.6561949997061,-26.70331666069318,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VERITAS</name>
+				<description><![CDATA[<p><a href='https://veritas.sao.arizona.edu/'>Very Energetic Radiation Imaging Telescope Array System (VERITAS)</a> is a major ground-based gamma-ray observatory with an array of four 12m optical reflectors for gamma-ray astronomy in the GeV - TeV energy range. The telescope design is based on the design of the existing 10m gamma-ray telescope of the Fred Lawrence Whipple Observatory. It consists of an array of imaging telescopes deployed such that they permit the maximum versatility and give the highest sensitivity in the 50 GeV - 50 TeV band (with maximum sensitivity from 100 GeV to 10 TeV). This very-high-energy observatory, completed in 2007, effectively complements Fermi.<br><br><img src="http://climateviewer.org/img/gallery/800px-MMT_FLWO_Amado_AZ_10359.jpg" /><br><br><img src="http://climateviewer.org/img/gallery/VERITAS_T2.jpg" /></p>]]></description>
+				<LookAt>
+					<longitude>-110.9516351109864</longitude>
+					<latitude>31.67505550781852</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001109020003389278</heading>
+					<tilt>7.221951870942642</tilt>
+					<range>528.2878132302981</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-110.9511523421399,31.67540086324003,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>APEX (Atacama Pathfinder Experiment)</name>
+				<description><![CDATA[<p><a href='http://www.apex-telescope.org/'>The Atacama Pathfinder Experiment (APEX)</a> is a radio telescope located at 5,100 meters above sea level, at the Llano de Chajnantor Observatory in the Atacama desert, in northern Chile, 50 kilometers to the east of San Pedro de Atacama. The main dish has a diameter of 12 meters and consists of 264 aluminium panels with an average surface accuracy of 17 micrometres (r.m.s.). The telescope was officially inaugurated on September 25, 2005.<br><br>The APEX telescope is a modified ALMA (Atacama Large Millimeter Array) prototype antenna and is located at the future site of the ALMA observatory. It will find many targets that ALMA will be able to study in great detail. APEX is designed to work at sub-millimetre wavelengths, in the 0.2 to 1.5 mm range — between infrared light and radio waves. Submillimetre astronomy opens a window into the cold, dusty and distant Universe, but the faint signals from space are heavily absorbed by water vapour in the Earth's atmosphere. Chajnantor is an ideal location for such a telescope, as the region is one of the driest on the planet and is more than 750 m higher than the observatories on Mauna Kea, and 2400 m higher than the Very Large Telescope (VLT) on Cerro Paranal.[1]<br><br>APEX is a collaboration between the Max Planck Institute for Radio Astronomy (MPIfR) at 50%, Onsala Space Observatory (OSO) at 23%, and the European Organisation for Astronomical Research in the Southern Hemisphere (ESO) at 27%.[2] The telescope was designed and constructed by VERTEX Antennentechnik GmbH (Germany), under contract by MPIfR.[3] The operation of APEX in Chajnantor is entrusted to ESO.<br><br><a href="http://static.panoramio.com/photos/original/1918447.jpg" title="APEX Telescope at Atacama desert, Chile - 2272 x 1704 pixels"><img src="http://climateviewer.org/img/gallery/1918447.jpg" alt="APEX Telescope at Atacama desert, Chile"></a></p>]]></description>
+				<LookAt>
+					<longitude>-67.75907830202877</longitude>
+					<latitude>-23.00588257893321</latitude>
+					<altitude>0</altitude>
+					<heading>-0.004527663374663587</heading>
+					<tilt>0</tilt>
+					<range>320.4524788049489</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-67.75886995841988,-23.00553669318649,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Spitsbergen Satellite-Station</name>
+				<description><![CDATA[<p><a href='http://static.panoramio.com/photos/original/26791725.jpg'><img src="http://climateviewer.org/img/gallery/26791725.jpg" /></a></p>]]></description>
+				<LookAt>
+					<longitude>16.1404893278253</longitude>
+					<latitude>78.17710178317697</latitude>
+					<altitude>0</altitude>
+					<heading>0.5192707113665253</heading>
+					<tilt>0</tilt>
+					<range>8072.787105545071</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>16.1404893278253,78.17710178317697,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sheshan, Shanghai, China</name>
+				<description><![CDATA[<p>EISCAT Like Facility<br><img src="http://climateviewer.org/img/gallery/seshan25_1.jpg"><br><br>The Sheshan 25m radio telescope is an alt-az antenna run by SHAO. The telescope is located in the Sheshan area, about 40km west of Shanghai.<br><br>This one is in the middle of the Old Jesuit Cathedral lot. They have an observatory there as well<br><br><img src="http://climateviewer.org/img/gallery/35031704.jpg"/><br><br>Observatory and Church <br><br><img src="http://climateviewer.org/img/gallery/Sheshan_1082077a.jpg"></p>]]></description>
+				<LookAt>
+					<longitude>121.1874807380282</longitude>
+					<latitude>31.09642696395329</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001681202361941246</heading>
+					<tilt>9.496276458610799</tilt>
+					<range>189.8082756041999</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>121.1874636158901,31.09647380489978,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ny Ålesund</name>
+				<description><![CDATA[<p><a id="main-photo" href="http://static.panoramio.com/photos/original/6230774.jpg" title="radio telescope next to the runway in Ny Alesund - 1200 x 1600 pixels"><img src="http://climateviewer.org/img/gallery/6230774.jpg" alt="radio telescope next to the runway in Ny Alesund"></a></p>]]></description>
+				<LookAt>
+					<longitude>11.8708521061103</longitude>
+					<latitude>78.92911610111996</latitude>
+					<altitude>0</altitude>
+					<heading>-132.5256228521812</heading>
+					<tilt>6.921502254656876</tilt>
+					<range>157.0145473856644</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>11.86982896978008,78.92925386215092,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Haikou ISR</name>
+				<description><![CDATA[<p><a href="http://static.panoramio.com/photos/original/38738882.jpg" title="气象雷达2010 - 816 x 1216 pixels" target="_blank"><img src="http://climateviewer.org/img/gallery/38738882.jpg" alt="气象雷达2010"></a></p>]]></description>
+				<Camera>
+					<longitude>110.2463544528294</longitude>
+					<latitude>19.99617605103995</latitude>
+					<altitude>256.4824424450947</altitude>
+					<heading>-3.187336246449929</heading>
+					<tilt>0.1360439573113436</tilt>
+					<roll>0.8798174528450088</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>110.2457489598693,19.99642557227795,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Alaska Satellite Facility S Band Transmitter</name>
+				<description><![CDATA[<p><a href='https://www.asf.alaska.edu/ground-station/antennas/'>AS3: 11 Meter Antenna</a><br><br>RGS 11.28 Meter 50-200W transmitter<br><br>Latitude - 64 deg 51 min 32.9280 sec N, NAD27<br>    Longitude - 147 deg 51 min 18.5250 sec W, NAD27<br>Elevation at feed 672 ft msl<br>11.28m aperture, Cassegrain feed with S-Band feed at prime<br>focus, X-Band feed at Cassegrain focus<br>3316 three-axis pedestal with 7 deg train axis<br>3860 antenna controller<br>Computerized, full hands-off pass support capability<br>Tracker command uplink capability has been installed<br>924-1-2 Wideband Demodulators supporting 924-2 multi-channel Bit Synchronizers<br>X-Band Receiving System<br><br>X-Band telemtry system G/T - 34 dB/deg K<br>Four independent, separately-tuned data channels<br>RHC &LHC selectable for all data channels inspanidually<br>Freq Range 8000-8500 MHz (in 100 KHz increments)<br>QPSK/UQPSK<br>Bit synch/Signal conditioner support for:<br><br>105 Mbps QPSK [ERS-2 & RSAT-1]<br>85 Mbps QPSK [RSAT-1]<br>60 Mbps QPSK<br>6 Mbps QPSK<br>Tracking channel, pseudo-monopulse autotrack mode<br>Cortex Multi Mission High Rate Data Receiver<br><br>S-Band Receiving System<br><br>S-Band telemetry system G/T - 22 dB/deg K<br>Dual-polarization spanersity combiners supporting data and track channel<br>Freq Range 2200-2400 MHz<br>Demods for AM, PM, FM, & BPSK<br>QPSK/UQPSK<br>Data Rates - 10 kbps to 4 Mbps BIO-L<br>10kbps to 8 Mbps NRZ-L<br>Tracking channel, E-Scan autotrack mode<br>S-Band Command System<br><br>RGS 11m S-Band Uplink System<br>RGS 11m S-Band Uplink System<br>Freq Range 2025-2120 MHz<br>Power range 50 to 200 watts<br>Modulation: * Transmit Data - 2kbps data BPSK on a 16 kHz<br>Subcarrier, linearly PM on uplink * Transmit Ranging - 1.7 MHz<br>subcarrier summer with data.</p>]]></description>
+				<LookAt>
+					<longitude>-147.8577220240094</longitude>
+					<latitude>64.85862847236071</latitude>
+					<altitude>0</altitude>
+					<heading>-0.002330168443173254</heading>
+					<tilt>4.71557325293289</tilt>
+					<range>168.0932958021496</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-147.8577220240094,64.85862847236071,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BDA - Brazilian Decimetric Array</name>
+				<description><![CDATA[<p><a href="http://static.panoramio.com/photos/original/33454748.jpg" title="BDA - Brazilian Decimetric Array - 2048 x 1536 pixels" target="_blank"><img src="http://climateviewer.org/img/gallery/33454748.jpg" alt="BDA - Brazilian Decimetric Array"></a></p>]]></description>
+				<LookAt>
+					<longitude>-45.00409632503956</longitude>
+					<latitude>-22.69297349856543</latitude>
+					<altitude>0</altitude>
+					<heading>-2.463413632974538e-006</heading>
+					<tilt>10.405671426842</tilt>
+					<range>651.8035403088366</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+					<coordinates>-45.00409632503956,-22.69297349856543,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nobeyama Radioheliograph</name>
+				<description><![CDATA[<p><a href="http://solar.nro.nao.ac.jp/norh/" target="_blank">Instrument Details</a><br><br><a href="http://solar.nro.nao.ac.jp/norh/" target="_blank"><img src="http://climateviewer.org/img/gallery/nobeyama-radioheliograph.png"/></a>]]></description>
+				<LookAt>
+					<longitude>138.473958148708</longitude>
+					<latitude>35.94218133453327</latitude>
+					<altitude>0</altitude>
+					<heading>-0.001091631102615671</heading>
+					<tilt>16.86927252788476</tilt>
+					<range>258.0989138780183</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_radz</styleUrl>
+				<Point>
+					<coordinates>138.473958148708,35.94218133453327,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>Effelsberg Radio Telescope</name>
+			<open>1</open>
+			<description><![CDATA[<p>With a diameter of 100 meters, the <a href='https://www.mpifr-bonn.mpg.de/en/effelsberg'>Radio Telescope Effelsberg</a> is one of the largest fully steerable radio telescopes on earth. Since operations started in 1972, the technology has been continually improved (i.e. new surface for the antenna-dish, better reception of high-quality data, extremely low noise electronics) making it one of the most advanced modern telescopes worldwide.</p><img src='http://climateviewer.org/img/gallery/effelsberg-radio-telescope.png' alt=''>]]></description>
+			<LookAt>
+				<longitude>6.884187373697093</longitude>
+				<latitude>50.52444059920256</latitude>
+				<altitude>0</altitude>
+				<heading>-0.189474957079307</heading>
+				<tilt>11.13642946606283</tilt>
+				<range>368.8646120916085</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>6.883606888471425,50.52480805833845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tromsø EISCAT UHF</name>
+			<open>1</open>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<p>Ramfjordmoen, Near Tromsø, Norway<br><a href="http://landau.geo.cornell.edu/papers/UAFreport.pdf" target="blank">2 MW: 928 MHz</a><br>32 m parabolic dish<br><br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:eis" target="_blank">EIS</a><br><br><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:CedarInstruments?action=detail&amp;kinst=70" target="_blank">Instrument Details</a><br><a href="http://www.eiscat.se:8080/" target="_blank">EISCAT website</a><br><a href="http://e7.eiscat.se/groups/Documentation/UserGuides/usersguide/UHFReceiver.html">More</a><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/tromso-uhf.jpg" /></p>]]></description>
+			<LookAt>
+				<longitude>19.22602445353335</longitude>
+				<latitude>69.58645797097239</latitude>
+				<altitude>0</altitude>
+				<heading>0.2869014638528874</heading>
+				<tilt>0</tilt>
+				<range>261.7823560091396</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_satellite_dish0</styleUrl>
+			<Point>
+				<coordinates>19.22602445353335,69.58645797097239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tromsø EISCAT VHF Radar</name>
+			<open>1</open>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<p>Ramfjordmoen, Near Tromsø, Norway<br><a href="http://landau.geo.cornell.edu/papers/UAFreport.pdf" target="blank">3 MW: 224 MHz</a><br>120 m X 40 m Offset parabolic cylinder<br><br>CEDAR: <a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Instruments:eis" target="_blank">EIS</a><br><a href="http://cedarweb.vsp.ucar.edu/wiki/index.php/Special:CedarInstruments?action=detail&amp;kinst=74" target="_blank">Instrument Details</a><br><a href="http://www.eiscat.se:8080/" target="_blank">EISCAT website</a><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/vhf_from_uhf.jpg" /><br><br><img alt="ClimateViewer 3D" src="http://climateviewer.org/img/gallery/vhf_dipoles.jpg" /></p>]]></description>
+			<LookAt>
+				<longitude>19.22262595452344</longitude>
+				<latitude>69.5866024927256</latitude>
+				<altitude>0</altitude>
+				<heading>0.2837163874552449</heading>
+				<tilt>0</tilt>
+				<range>312.0985870528882</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_satellite_dish0</styleUrl>
+			<Point>
+				<coordinates>19.22262595452344,69.5866024927256,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Special Astrophysical Observatory</name>
+			<open>1</open>
+			<description><![CDATA[SAO RAS, Special Astrophysical Observatory of the Russian Academy of Science<br>Nizhnij Arkhyz, Karachai-Cherkessian Republic, Russia]]></description>
+			<LookAt>
+				<longitude>41.58734191767245</longitude>
+				<latitude>43.82607145873529</latitude>
+				<altitude>0</altitude>
+				<heading>0.002025678778061831</heading>
+				<tilt>0</tilt>
+				<range>1027.498875786195</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>41.58528266691277,43.82623825656101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pushchino Radio Astronomy Observatory</name>
+			<open>1</open>
+			<description><![CDATA[Pushchino Radio Astronomy Observatory<br>Moskovskaja Oblast&apos; Pushchino, Russia]]></description>
+			<LookAt>
+				<longitude>37.63358096304689</longitude>
+				<latitude>54.82375124222403</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004157187224188984</heading>
+				<tilt>0</tilt>
+				<range>1095.513477572704</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>37.63308275886326,54.82257710185071,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>National Astronomical Observatory - San Pedro Martir</name>
+			<open>1</open>
+			<description><![CDATA[National Astronomical Observatory<br>Baja California, Mexico<br>1 review Your rating:<br><br>Mexico&apos;s National Astronomical Observatory was first established on the balcony of Chapultepec Castle in Mexico City in 1878. It was later moved to Tacubaya, then on the outskirts of the city, a location remembered in the Observatorio station of the Mexico City Metro, situated nearby. In the middle of the 20th century, the Observatory was removed from the increasingly crowded and polluted Valley of Mexico ... - All text is available under the terms of the GNU Free Documentation License‎ - Wikipedia]]></description>
+			<LookAt>
+				<longitude>-115.4633333337393</longitude>
+				<latitude>31.04333333326516</latitude>
+				<altitude>0</altitude>
+				<heading>-2.093631924620175e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000038526513</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-115.4635848027597,31.04400699873264,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Large Binocular Telescope Observatory</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-109.8894331569407</longitude>
+				<latitude>32.70164831024224</latitude>
+				<altitude>0</altitude>
+				<heading>85.52752509212843</heading>
+				<tilt>30.72039161005073</tilt>
+				<range>346.1654974707512</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-109.8892318200868,32.70174725209677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NRAO Robert C. Byrd Green Bank Radio Telescope</name>
+			<open>1</open>
+			<description>http://www.gb.nrao.edu/gbt/</description>
+			<LookAt>
+				<longitude>-79.83979048512545</longitude>
+				<latitude>38.43383624064843</latitude>
+				<altitude>0</altitude>
+				<heading>0.5490617778939322</heading>
+				<tilt>0</tilt>
+				<range>926.3514763072708</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-79.83979048512546,38.43383624064843,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lowell Space Observatory</name>
+			<open>1</open>
+			<description><![CDATA[<p>Lowell Observatory is a private, nonprofit, research institution founded in 1894 by Percival Lowell.<br><br>Since then, Lowell astronomers have conducted fundamental research that has led to the discovery of Pluto, the first evidence of the expanding Universe, and exhaustive measurements of the motions and basic properties of stars, among other achievements. Today, our staff of nearly 90 continues this tradition of discovery in all areas of astronomy and planetary science.<br><br>In 1994, in celebration of our centennial, we opened the Steele Visitor Center; today, well over a million people have passed through its doors. Some 80,000 visitors each year enjoy our tours, telescope viewing, exhibits, multimedia shows, and more. Percival Lowell inspired millions with his tireless advocacy of astronomy in the public eye, and we continue this commitment today.<br><br>In 2012, we will embark on our greatest adventure yet with the completion of the 4.3-meter Discovery Channel Telescope (DCT). This new facility will vastly expand the breadth of research capabilities for our astronomers. Perhaps more exciting, Discovery Communications will bring our results to hundreds of millions worldwide through programming using the DCT’s breathtaking images.</p>]]></description>
+			<LookAt>
+				<longitude>-111.6640495563239</longitude>
+				<latitude>35.20256452770886</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004032102483521148</heading>
+				<tilt>0</tilt>
+				<range>755.7743291460192</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.6640495563239,35.20256452770886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Magdalena Ridge Observatory (MRO)</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://www.mro.nmt.edu/about-mro/interferometer-mroi/'>The Magdalena Ridge Observatory (MRO)</a><br>Laser Interferometer<br></p><p>The MRO Interferometer Project's mission is to develop an ambitious ten-element imaging interferometer to operate at wavelengths between 0.6 and 2.4 microns with baselines from 7.5 to 340m. Its primarily technical and scientific goals are to produce model-independent images of faint and complex astronomical targets at resolutions over 100 times that of the Hubble Space Telescope.</p><p><img src="http://climateviewer.org/img/gallery/MROI_UTE_Close-Pack-800x600.png"></p>]]></description>
+			<LookAt>
+				<longitude>-107.1828697542556</longitude>
+				<latitude>33.9776461944662</latitude>
+				<altitude>0</altitude>
+				<heading>-0.2813811221742831</heading>
+				<tilt>0</tilt>
+				<range>1382.988241338902</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-107.1840804201044,33.97618748377251,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rome Observatory</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>12.45352810962596</longitude>
+				<latitude>41.92281032471034</latitude>
+				<altitude>0</altitude>
+				<heading>44.0600249811602</heading>
+				<tilt>64.76307679885825</tilt>
+				<range>406.4937617364983</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>12.45206550407864,41.92214073794621,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>National Astronomical Observatory of Japan</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>139.5377332074451</longitude>
+				<latitude>35.67567771698774</latitude>
+				<altitude>0</altitude>
+				<heading>0.0009288923559801417</heading>
+				<tilt>0</tilt>
+				<range>982.6531921227142</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>139.5372105726623,35.67501188848321,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Owens Valley Radio Observatory</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Owens_Valley_Radio_Observatory'>The Owens Valley Radio Observatory (OVRO)</a> is a radio observatory located near Bishop, California, within the Owens Valley, California region, approximately 250 miles north of Los Angeles on the east side of the Sierra Nevada. It is owned and operated by the California Institute of Technology. For reference, its coordinates are 37°14′02″N 118°16′56″W at 1222 meters above sea level. The major instruments at the observatory are:<br><br>the Combined Array for Research in Millimeter-wave Astronomy,<br>the OVRO 40 meter Telescope, and<br>the Owens Valley Solar Array.<br>A dish antenna of the Very Long Baseline Array is immediately adjacent to, but not part of, the observatory.<br><br><a  href="http://static.panoramio.com/photos/original/20792946.jpg" title="OVRO observatory - 12000 x 1267 pixels"><img src="http://climateviewer.org/img/gallery/20792946.jpg" alt="OVRO observatory"></a></p>]]></description>
+			<LookAt>
+				<longitude>-118.2813964258837</longitude>
+				<latitude>37.23072255611242</latitude>
+				<altitude>0</altitude>
+				<heading>0.01123736442137472</heading>
+				<tilt>7.080768251618157</tilt>
+				<range>1884.217159146714</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-118.2814979093007,37.23186456452704,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kitt Peak National Observatory</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-111.5972910366075</longitude>
+				<latitude>31.95949498350561</latitude>
+				<altitude>0</altitude>
+				<heading>0.005285495651514851</heading>
+				<tilt>36.3527138949983</tilt>
+				<range>1841.174440365937</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-111.5972834940267,31.96049139082952,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Solar Observatory, Learnmonth, Austrailia</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>114.1033758745008</longitude>
+				<latitude>-22.21919324595764</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003116981652874552</heading>
+				<tilt>0</tilt>
+				<range>597.4929596164286</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>114.1033758745008,-22.21919324595764,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shanghai Observatory</name>
+			<open>1</open>
+			<description><![CDATA[<p>J<a href='http://www.shao.ac.cn/eng/'>Joint Laboratory for Radio Astronomy (JLRA)</a>, CAS and Shanghai Observatory, CAS</p>]]></description>
+			<LookAt>
+				<longitude>121.4294079854357</longitude>
+				<latitude>31.19030148874361</latitude>
+				<altitude>0</altitude>
+				<heading>0.1076696953819458</heading>
+				<tilt>0.4868497568254288</tilt>
+				<range>237.1835017252271</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>121.4294079854357,31.19030148874361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Purple Mountain Observatory</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/Purple_Mountain_Observatory'>Purple Mountain Observatory</a> (Chinese: 紫金山天文台; pinyin: Zĭjīnshān Tiānwéntái), also known as Zijinshan Astronomical Observatory, is an astronomical observatory located on the Purple Mountain in Nanjing, China.<br><br>The long time director of the observatory (from 1950 to 1984) was Zhang Yuzhe (张钰哲) (Y. C. Chang).<br><br>The observatory discovered the periodic comets 60P/Tsuchinshan and 62P/Tsuchinshan, and also the non-periodic C/1977 V1 (Tsuchinshan), also known as Comet 1977 X.<br><br>Many asteroids were also discovered at the observatory, including the Trojan asteroids 2223 Sarpedon, 2260 Neoptolemus, 2363 Cebriones, 2456 Palamedes, as well as the eponymous 3494 Purple Mountain.<br><br><img src="http://climateviewer.org/img/gallery/Purple_mountain.jpg" /></p>]]></description>
+			<LookAt>
+				<longitude>118.8252185633458</longitude>
+				<latitude>32.06689200043547</latitude>
+				<altitude>0</altitude>
+				<heading>0.004490549568166868</heading>
+				<tilt>0</tilt>
+				<range>371.254310934059</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>118.8252185633458,32.06689200043547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>United Station Naval Observatory</name>
+			<open>1</open>
+			<description><![CDATA[<p><a href='http://en.wikipedia.org/wiki/United_States_Naval_Observatory'>The United States Naval Observatory (USNO)</a> is one of the oldest scientific agencies in the United States, with a primary mission[1] to produce Positioning, Navigation, and Timing (PNT)[2] for the U.S. Navy and the U.S. Department of Defense. Located in Northwest Washington, D.C., it is one of the pre-1900 astronomical observatories located in an urban area; at the time of its construction, it was far from the light pollution thrown off by the (then-smaller) city center. Today, the observatory's primary observational work is done at the U.S. Navy's higher elevation United States Naval Observatory, Flagstaff Station (NOFS) near Flagstaff, Arizona. USNO also has an "Alternate Master Clock" site in Colorado Springs, CO[3] which, with the "Master Clock",[4] provides precise time to the GPS satellite constellation run by the U.S. Air Force; and it performs radio VLBI-based positions of quasars with numerous global collaborators, in order to produce Earth Orientation parameters. Aside from its scientific mission, since 1974, the Observatory is the official residence of the Vice President of the United States.<br><br><img src="http://climateviewer.org/img/gallery/United_States_Naval_Observatory.aerial_view.jpg" /></p>]]></description>
+			<LookAt>
+				<longitude>-77.06685987744207</longitude>
+				<latitude>38.92235688538717</latitude>
+				<altitude>0</altitude>
+				<heading>5.869776574105212e-005</heading>
+				<tilt>0</tilt>
+				<range>518.5647718629567</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+				<coordinates>-77.06685987744207,38.92235688538717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South Pole: Viper Telescope</name>
+			<open>1</open>
+			<description><![CDATA[<p>Viper, a 2-meter class telescope, extends our observations to structures in the cosmic microwave background having smaller angular scales. Our primary goal is to determine the power spectrum of the CMBR anisotropy, over the range of angular scales where cosmological models differ most in their predictions. This austral summer we are refurbishing the telescope to allow for new cables and hoses for the ACBAR, Corona, and SPARO instruments. Also, we will raise the elevation of the telescope by about 4 centimeters, and install a new cable wrap, a new azimuth rind and new control wiring. Jeffrey Peterson, Carnegie-Mellon University. (AC-375-O)</p><p><a href="http://www.nsf.gov/news/news_summ.jsp?cntn_id=102956" target="_blank"><img src="http://climateviewer.org/img/gallery/nsf-south-pole-viper-telescope.jpg"/></a></p><p><a href="http://www.nsf.gov/news/news_summ.jsp?cntn_id=102956" target="_blank">NSF Telescope Sheds Light on Fate of Universe</a><br><a href="http://www.nsf.gov/od/opp/antarct/treaty/projsum01/html/cara.html" target="_blank">Center for Astrophysical Research in Antarctica (CARA)</a></p>]]></description>
+			<LookAt>
+				<longitude>-123.6474296988097</longitude>
+				<latitude>-89.99991081411726</latitude>
+				<altitude>0</altitude>
+				<heading>-1.840049110813399</heading>
+				<tilt>0</tilt>
+				<range>217.1706138399106</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<coordinates>-123.6474296988097,-89.99991081411726,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Perth Observatory</name>
+			<open>1</open>
+			<description><![CDATA[<p>Perth, Western Australia, Australia<br><br><a href="http://www.perthobservatory.wa.gov.au/" target="_blank">Perth Observatory</a></p>]]></description>
+			<LookAt>
+				<longitude>116.13709249999</longitude>
+				<latitude>-32.00721799594545</latitude>
+				<altitude>0</altitude>
+				<heading>7.596928635719802</heading>
+				<tilt>0</tilt>
+				<range>513.3062059062067</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_radz</styleUrl>
+			<Point>
+				<coordinates>116.13709249999,-32.00721799594545,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

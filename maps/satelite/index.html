@@ -1,0 +1,33 @@
+<!-- maps/skymap.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+  <title>Satelite Map</title>
+  
+  <style>
+    html, body, #map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  }
+    canvas{
+        width: 100vw;
+        height: 100vh;
+    }
+    body{
+        overflow: hidden;
+        margin: 0;
+        font-family: "Balsamiq Sans", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script type="module" src="./satelite.js"></script>
+</body>
+</html>
